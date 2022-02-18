@@ -6,7 +6,7 @@ The automation script of this repo is powered by [Auto-Bibfile](https://github.c
 
 You can directly use our bibtex.bib in overleaf with this [link]().
 
-This page categorizes the literature by the **Continual Learning Setting**, filtered by CV area.
+This page categorizes the literature by the **Few-shot Learning Setting**, filtered by CV area.
 
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/setting/README.md#hyperlink)

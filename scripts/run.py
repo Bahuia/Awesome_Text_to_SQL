@@ -32,7 +32,6 @@ def plot_titles(titles):
 
 
 def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False):
-    # todo: could be removed
     external_link = "[![](https://img.shields.io/badge/Awesome_Continual_Learning-yellow)](https://github.com/wutong8023/Awesome_Continual_Learning.git) " \
                     "[![](https://img.shields.io/badge/Awesome_Few_Shot_learning-green)](https://github.com/wutong8023/Awesome_Few_Shot_Learning.git) " \
                     "[![](https://img.shields.io/badge/Awesome_Information_Extraction-blue)](https://github.com/wutong8023/Awesome_Information_Extraction.git) " \
@@ -55,7 +54,7 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
                    "You can directly use our bibtex.bib in overleaf with this " \
                    "[link]({bib_link_overleaf}).\n\n" \
                    "".format(author_info=author_info, personal_link=personal_link, bib_link_overleaf=bib_link_overleaf)
-    
+ 
     str_outline += dicrib + "\n\n"
     
     str_outline += "## Outline \n"
@@ -75,6 +74,7 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
     
     return str_outline
 
+
 def get_hyperlink(hyperlinks, mapping_name):
     str_hyperlink = "## Hyperlink \n"
     
@@ -93,6 +93,7 @@ def get_hyperlink(hyperlinks, mapping_name):
         str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic}4all/{item})\n"
     
     return str_hyperlink
+
 
 def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles, sub_dirs=None, mapping_name=None):
     generate_md_file(DB=bib_db, list_classif=list_type, key=keys, plot_title_fct=plot_titles,
@@ -169,7 +170,7 @@ plot_content(index=index, keys=["year"], dir_path=dir_path, disc=disc, list_type
 # 3 application
 list_type = [[app] for app in fined_taxonomy["Application"]]
 index = 3
-disc = "This page categorizes the literature by the **Continual Learning Application**"
+disc = "This page categorizes the literature by the **Few-shot Learning Application**"
 plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
              mapping_name=mapping_name)
 
@@ -188,14 +189,14 @@ for key in fined_taxonomy["Approach"]:
     else:
         list_type.append([key])
 index = 5
-disc = "This page categorizes the literature by the **Continual Learning Approach**"
+disc = "This page categorizes the literature by the **Few-shot Learning Approach**"
 plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
              mapping_name=mapping_name)
 
 # 6 setting
 list_type = [[setting] for setting in fined_taxonomy["Setting"]]
 index = 6
-disc = "This page categorizes the literature by the **Continual Learning Setting**"
+disc = "This page categorizes the literature by the **Few-shot Learning Setting**"
 plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
              mapping_name=mapping_name)
 

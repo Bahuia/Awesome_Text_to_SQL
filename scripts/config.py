@@ -9,12 +9,12 @@ author_info = "Yongrui Chen"  # used in introduction
 personal_link = ""  # used in introduction
 repo_name = "Awesome_Text_to_SQL"  # repository name
 branch_name = "master"  # branch name
-your_research_topic = "nl2sql"  # used for dictionary name
+your_research_topic = "text2sql"  # used for dictionary name
 your_research_topic_full_name = "Text-to-SQL"  # used for title
 bib_link_overleaf = ""  # used for overleaf
 color = "blue"
 
-base_link = f"https://github.com/{user_id}/{repo_name}/{branch_name}/"
+base_link = f"https://github.com/{user_id}/{repo_name}/blob/{branch_name}/"
 
 # user customized taxonomy
 fined_taxonomy = {
@@ -40,6 +40,8 @@ fined_taxonomy = {
     
     # 3: Supervision
     "Supervision": ["Supervised Learning",
+                    "Semi-Supervised Learning",
+                    "UnSupervised Learning"
                     "Other Learning Paradigm"],
     
     # 4: Application
@@ -56,18 +58,22 @@ fined_taxonomy = {
     "Setting": ["Class Incremental", "N-way K-shot", "Other Setting"],
     
     # 8: Research Question
-    "RQs": {"Catastrophic Forgetting", "Order Sensitivity", "Few-shot Adaptation", "Others RQs"},
+    "RQs": {"Single-Table", "Multi-Table", "Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},
     
     # 9: Backbone
     "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",
                  "Probabilistic Graphical Model", "VAEs", "Other Structure"],
     
     # 10: Dataset
-    "Dataset": ["Fewrel", "SimpleQuestion", "Tacred",
-                "FewEvent",
+    "Dataset": ["WikiSQL", "WikiTableQuestions",
+                "Spider",
+                "ATIS",
                 "Other Dataset"
                 ],
     
     # 11: Metrics
-    "Metrics": ["Accuracy", "F1"]
+    "Metrics": ["Accuracy", "F1", "LF", "EX"],
+
+    # 12: Architecture
+    "Architecture": ["Seq2Seq", "Encoder Sub-module"],
 }

@@ -10,7 +10,6 @@ This page categorizes the literature by the **Last Post**, filtered by NLP area.
 
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time/README.md#hyperlink)
-- [![](https://img.shields.io/badge/2021-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time/README.md#2021)
 - [![](https://img.shields.io/badge/2020-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time/README.md#2020)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
@@ -28,20 +27,10 @@ This page categorizes the literature by the **Last Post**, filtered by NLP area.
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/time) -- [Published Time](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/time)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/venue)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/venue) -- [Published Venue](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/venue)
 
-## 2021
-
-- [![](https://img.shields.io/badge/AAAI-2021-blue)](https://ojs.aaai.org/index.php/AAAI/article/view/17241) [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , <br> by *Tongtong Wu and
-Xuekai Li and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Guilin Qi and
-Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L31-L57)<br> ```Add a brief note behind the bib entry
-```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20"></summary><pre>```WuLLHQZX21```
 ## 2020
 
-- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/) [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
+- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
 Richard Shin and
 Xiaodong Liu and
 Oleksandr Polozov and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L29)<br> </details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20"></summary><pre>```WangSLPR20```
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L29) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```

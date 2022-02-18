@@ -87,10 +87,15 @@ def get_md_entry(DB, entry, add_comments=True):
         md_str += "{}".format(tag)
     else:
         md_str += ""
-    
+
     paper_title = entry['title'].replace("{", "")
     paper_title = paper_title.replace("}", "")
     paper_title = paper_title.strip()
+
+    img_link =f"https://img.shields.io/badge/-{color}.svg?&logo=google-scholar&logoColor=white"
+    gs_link = "https://scholar.google.com.hk/scholar?q=" + "+".join(paper_title.split())
+    md_str += f'<a href="{gs_link}"><img src="{img_link}" height="18" align="bottom"></a>'
+
     
     if 'url' in entry.keys():
         md_str += " [**" + paper_title + "**](" + entry['url'] + ") "
@@ -101,7 +106,8 @@ def get_md_entry(DB, entry, add_comments=True):
     
     md_str += " by *" + keep_last_and_only(entry['author']) + "*"
     
-    md_str += " [[bib]](" + create_bib_link(entry['ID']) + ")<br> "
+    md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") <br>"
+
     
     if add_comments:
         # maybe there is a comment to write
@@ -113,7 +119,7 @@ def get_md_entry(DB, entry, add_comments=True):
     md_str += "</details>"
 
     img_link = os.path.join(base_link, "scripts/svg/copy_icon.png")
-    md_str += f'<details><summary><img src={img_link} height="20"></summary>'
+    md_str += f'<details><summary><img src={img_link} height="20" align="bottom"></summary>'
     md_str += f"<pre>```{entry['ID']}```"
     
     # md_str += '<br>\n'

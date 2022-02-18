@@ -18,7 +18,7 @@ base_link = f"https://github.com/{user_id}/{repo_name}/blob/{branch_name}/"
 
 # user customized taxonomy
 fined_taxonomy = {
-    "Conference": ["ACL", "EMNLP", "NAACL", "COLING", "EACL", "CoNLL", "ICML", "ICLR", "NeurIPS", "AISTATS", "AAAI",
+    "Conference": ["ACL", "EMNLP", "ACL findings", "EMNLP findings", "NAACL", "COLING", "EACL", "CoNLL", "ICML", "ICLR", "NeurIPS", "AISTATS", "AAAI",
                    "IJCAI", "WWW", "MM", "CVPR", "ICCV", "ECCV", "WACV"],
     
     "Journal": [
@@ -32,7 +32,7 @@ fined_taxonomy = {
     "Preprint": ["arXiv", "CoRR"],
     
     # 1: resource type
-    "Contribution": ["Survey", "Important", "New Settings or Metrics", "New Application",
+    "Contribution": ["New Dataset", "Survey", "Important", "New Settings or Metrics", "New Application",
              "Empirical Study", "Theory", "New Backbone Model", "New Method", "Thesis", "Library", "Workshop",
              "Other Type"],
     # 2: Area
@@ -41,7 +41,8 @@ fined_taxonomy = {
     # 3: Supervision
     "Supervision": ["Supervised Learning",
                     "Semi-Supervised Learning",
-                    "UnSupervised Learning"
+                    "UnSupervised Learning",
+                    "Reinforcement Learning",
                     "Other Learning Paradigm"],
     
     # 4: Application
@@ -49,13 +50,13 @@ fined_taxonomy = {
                     "Other Application", ],
     
     # 5: Approach
-    "Approach": ["Rehearsal", "Meta-learning", "Other Approach"],
+    "Approach": ["Meta-learning", "Continual Learning", "Other Approach"],
     
     # 6: Whether need memory
     "Memory": ["w/ External Knowledge", "w/o External Knowledge"],
     
     # 7: Setting
-    "Setting": ["Class Incremental", "N-way K-shot", "Other Setting"],
+    "Setting": ["Class Incremental", "N-way K-shot", "Seq2Seq", "Encoder Sub-module", "Other Setting"],
     
     # 8: Research Question
     "RQs": {"Single-Table", "Multi-Table", "Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},

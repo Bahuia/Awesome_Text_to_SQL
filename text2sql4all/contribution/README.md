@@ -10,7 +10,7 @@ This page categorizes the literature by the Contribution.
 
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/contribution/README.md#hyperlink)
-- [![](https://img.shields.io/badge/New_Method-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/contribution/README.md#new-method)
+- [![](https://img.shields.io/badge/New_Dataset-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/contribution/README.md#new-dataset)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/./)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/./) -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/./)
@@ -27,10 +27,9 @@ This page categorizes the literature by the Contribution.
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/time) -- [Published Time](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/time)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/venue)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/venue) -- [Published Venue](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/venue)
 
-## New Method
+## New Dataset
 
-- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
-Richard Shin and
-Xiaodong Liu and
-Oleksandr Polozov and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L29) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```
+- [![](https://img.shields.io/badge/CoRR-2017-blue)](http://arxiv.org/abs/1709.00103)<a href="https://scholar.google.com.hk/scholar?q=Seq2SQL:+Generating+Structured+Queries+from+Natural+Language+using+Reinforcement+Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Seq2SQL: Generating Structured Queries from Natural Language using
+Reinforcement Learning**](http://arxiv.org/abs/1709.00103) , <br> by *Victor Zhong and
+Caiming Xiong and
+Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L19-L42) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-1709-00103```

@@ -10,7 +10,6 @@ This page categorizes the literature by the **Few-shot Learning Application**, f
 
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/application/README.md#hyperlink)
-- [![](https://img.shields.io/badge/Relation_Extraction-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/application/README.md#relation-extraction)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/./)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/./) -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/./)
@@ -26,11 +25,3 @@ This page categorizes the literature by the **Few-shot Learning Application**, f
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/supervision)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/supervision) -- [ Learning Paradigm](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/supervision)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/time) -- [Published Time](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/time)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/venue)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/venue) -- [Published Venue](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/venue)
-
-## Relation Extraction
-
-- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
-Richard Shin and
-Xiaodong Liu and
-Oleksandr Polozov and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L29) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```

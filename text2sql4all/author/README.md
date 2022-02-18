@@ -10,15 +10,26 @@ This page categorizes the literature by the **Author**.
 
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#hyperlink)
+- [![](https://img.shields.io/badge/Dragomir_R._Radev-3-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#dragomir-r.-radev)
+- [![](https://img.shields.io/badge/Tao_Yu-3-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#tao-yu)
 - [![](https://img.shields.io/badge/Richard_Socher-3-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#richard-socher)
 - [![](https://img.shields.io/badge/Caiming_Xiong-3-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#caiming-xiong)
+- [![](https://img.shields.io/badge/Bailin_Wang-3-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#bailin-wang)
+- [![](https://img.shields.io/badge/Kai_Yu-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#kai-yu)
+- [![](https://img.shields.io/badge/Su_Zhu-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#su-zhu)
+- [![](https://img.shields.io/badge/Yanbin_Zhao-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#yanbin-zhao)
+- [![](https://img.shields.io/badge/Zhi_Chen-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#zhi-chen)
+- [![](https://img.shields.io/badge/Lu_Chen-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#lu-chen)
+- [![](https://img.shields.io/badge/Ruisheng_Cao-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#ruisheng-cao)
+- [![](https://img.shields.io/badge/Jonathan_Berant-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#jonathan-berant)
+- [![](https://img.shields.io/badge/Zifan_Li-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#zifan-li)
+- [![](https://img.shields.io/badge/Rui_Zhang-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#rui-zhang)
 - [![](https://img.shields.io/badge/Xi_Victoria_Lin-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#xi-victoria-lin)
 - [![](https://img.shields.io/badge/Kaushik_Chakrabarti-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#kaushik-chakrabarti)
 - [![](https://img.shields.io/badge/Xiaodong_He-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#xiaodong-he)
 - [![](https://img.shields.io/badge/Wen_tau_Yih-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#wen-tau-yih)
 - [![](https://img.shields.io/badge/Matthew_Richardson-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#matthew-richardson)
 - [![](https://img.shields.io/badge/Oleksandr_Polozov-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#oleksandr-polozov)
-- [![](https://img.shields.io/badge/Bailin_Wang-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/author/README.md#bailin-wang)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/./)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/./) -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/./)
@@ -35,6 +46,54 @@ This page categorizes the literature by the **Author**.
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/time)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/time) -- [Published Time](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/time)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/venue)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/venue) -- [Published Venue](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/venue)
 
+## Dragomir R. Radev
+
+- [![](https://img.shields.io/badge/ICLR-2021-blue)](https://openreview.net/forum?id=kyaIeYj4zZ)<a href="https://scholar.google.com.hk/scholar?q=GraPPa:+Grammar-Augmented+Pre-Training+for+Table+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**](https://openreview.net/forum?id=kyaIeYj4zZ) , <br> by *Tao Yu and
+Chien{-}Sheng Wu and
+Xi Victoria Lin and
+Bailin Wang and
+Yi Chern Tan and
+Xinyi Yang and
+Dragomir R. Radev and
+Richard Socher and
+Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L143-L161) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+- [![](https://img.shields.io/badge/CoRR-2018-blue)](http://arxiv.org/abs/1810.05237)<a href="https://scholar.google.com.hk/scholar?q=SyntaxSQLNet:+Syntax+Tree+Networks+for+Complex+and+Cross-DomainText-to-SQL+Task"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL
+Task**](http://arxiv.org/abs/1810.05237) , <br> by *Tao Yu and
+Michihiro Yasunaga and
+Kai Yang and
+Rui Zhang and
+Dongxu Wang and
+Zifan Li and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L310-L329) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-1810-05237```
+- [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2093)<a href="https://scholar.google.com.hk/scholar?q=TypeSQL:+Knowledge-Based+Type-Aware+Neural+Text-to-SQL+Generation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation**](https://doi.org/10.18653/v1/n18-2093) , <br> by *Tao Yu and
+Zifan Li and
+Zilin Zhang and
+Rui Zhang and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L331-L350) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/YuLZZR18```
+## Tao Yu
+
+- [![](https://img.shields.io/badge/ICLR-2021-blue)](https://openreview.net/forum?id=kyaIeYj4zZ)<a href="https://scholar.google.com.hk/scholar?q=GraPPa:+Grammar-Augmented+Pre-Training+for+Table+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**](https://openreview.net/forum?id=kyaIeYj4zZ) , <br> by *Tao Yu and
+Chien{-}Sheng Wu and
+Xi Victoria Lin and
+Bailin Wang and
+Yi Chern Tan and
+Xinyi Yang and
+Dragomir R. Radev and
+Richard Socher and
+Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L143-L161) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+- [![](https://img.shields.io/badge/CoRR-2018-blue)](http://arxiv.org/abs/1810.05237)<a href="https://scholar.google.com.hk/scholar?q=SyntaxSQLNet:+Syntax+Tree+Networks+for+Complex+and+Cross-DomainText-to-SQL+Task"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL
+Task**](http://arxiv.org/abs/1810.05237) , <br> by *Tao Yu and
+Michihiro Yasunaga and
+Kai Yang and
+Rui Zhang and
+Dongxu Wang and
+Zifan Li and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L310-L329) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-1810-05237```
+- [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2093)<a href="https://scholar.google.com.hk/scholar?q=TypeSQL:+Knowledge-Based+Type-Aware+Neural+Text-to-SQL+Generation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation**](https://doi.org/10.18653/v1/n18-2093) , <br> by *Tao Yu and
+Zifan Li and
+Zilin Zhang and
+Rui Zhang and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L331-L350) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/YuLZZR18```
 ## Richard Socher
 
 - [![](https://img.shields.io/badge/ICLR-2021-blue)](https://openreview.net/forum?id=kyaIeYj4zZ)<a href="https://scholar.google.com.hk/scholar?q=GraPPa:+Grammar-Augmented+Pre-Training+for+Table+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**](https://openreview.net/forum?id=kyaIeYj4zZ) , <br> by *Tao Yu and
@@ -45,7 +104,7 @@ Yi Chern Tan and
 Xinyi Yang and
 Dragomir R. Radev and
 Richard Socher and
-Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L165-L183) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L143-L161) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
 - [![](https://img.shields.io/badge/EMNLP_findings-2020-blue)](https://doi.org/10.18653/v1/2020.findings-emnlp.438)<a href="https://scholar.google.com.hk/scholar?q=Bridging+Textual+and+Tabular+Data+for+Cross-Domain+Text-to-SQL+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic
 Parsing**](https://doi.org/10.18653/v1/2020.findings-emnlp.438) , <br> by *Xi Victoria Lin and
 Richard Socher and
@@ -64,7 +123,7 @@ Yi Chern Tan and
 Xinyi Yang and
 Dragomir R. Radev and
 Richard Socher and
-Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L165-L183) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L143-L161) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
 - [![](https://img.shields.io/badge/EMNLP_findings-2020-blue)](https://doi.org/10.18653/v1/2020.findings-emnlp.438)<a href="https://scholar.google.com.hk/scholar?q=Bridging+Textual+and+Tabular+Data+for+Cross-Domain+Text-to-SQL+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic
 Parsing**](https://doi.org/10.18653/v1/2020.findings-emnlp.438) , <br> by *Xi Victoria Lin and
 Richard Socher and
@@ -73,6 +132,159 @@ Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master
 Reinforcement Learning**](http://arxiv.org/abs/1709.00103) , <br> by *Victor Zhong and
 Caiming Xiong and
 Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L19-L42) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-1709-00103```
+## Bailin Wang
+
+- [![](https://img.shields.io/badge/ICLR-2021-blue)](https://openreview.net/forum?id=kyaIeYj4zZ)<a href="https://scholar.google.com.hk/scholar?q=GraPPa:+Grammar-Augmented+Pre-Training+for+Table+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**](https://openreview.net/forum?id=kyaIeYj4zZ) , <br> by *Tao Yu and
+Chien{-}Sheng Wu and
+Xi Victoria Lin and
+Bailin Wang and
+Yi Chern Tan and
+Xinyi Yang and
+Dragomir R. Radev and
+Richard Socher and
+Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L143-L161) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.33)<a href="https://scholar.google.com.hk/scholar?q=Meta-Learning+for+Domain+Generalization+in+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Meta-Learning for Domain Generalization in Semantic Parsing**](https://doi.org/10.18653/v1/2021.naacl-main.33) , <br> by *Bailin Wang and
+Mirella Lapata and
+Ivan Titov* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L479-L502) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/WangLT21```
+- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
+Richard Shin and
+Xiaodong Liu and
+Oleksandr Polozov and
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L16) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```
+## Kai Yu
+
+- [![](https://img.shields.io/badge/ACL-2021-blue)](https://doi.org/10.18653/v1/2021.acl-long.198)<a href="https://scholar.google.com.hk/scholar?q=LGESQL:+Line+Graph+Enhanced+Text-to-SQL+Model+with+Mixed+Local+and+Non-Local+Relations"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+Non-Local Relations**](https://doi.org/10.18653/v1/2021.acl-long.198) , <br> by *Ruisheng Cao and
+Lu Chen and
+Zhi Chen and
+Yanbin Zhao and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L455-L477) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/CaoC0ZZ020```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.441)<a href="https://scholar.google.com.hk/scholar?q=ShadowGNN:+Graph+Projection+Neural+Network+for+Text-to-SQL+Parser"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser**](https://doi.org/10.18653/v1/2021.naacl-main.441) , <br> by *Zhi Chen and
+Lu Chen and
+Yanbin Zhao and
+Ruisheng Cao and
+Zihan Xu and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L530-L557) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/ChenCZCXZY21```
+## Su Zhu
+
+- [![](https://img.shields.io/badge/ACL-2021-blue)](https://doi.org/10.18653/v1/2021.acl-long.198)<a href="https://scholar.google.com.hk/scholar?q=LGESQL:+Line+Graph+Enhanced+Text-to-SQL+Model+with+Mixed+Local+and+Non-Local+Relations"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+Non-Local Relations**](https://doi.org/10.18653/v1/2021.acl-long.198) , <br> by *Ruisheng Cao and
+Lu Chen and
+Zhi Chen and
+Yanbin Zhao and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L455-L477) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/CaoC0ZZ020```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.441)<a href="https://scholar.google.com.hk/scholar?q=ShadowGNN:+Graph+Projection+Neural+Network+for+Text-to-SQL+Parser"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser**](https://doi.org/10.18653/v1/2021.naacl-main.441) , <br> by *Zhi Chen and
+Lu Chen and
+Yanbin Zhao and
+Ruisheng Cao and
+Zihan Xu and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L530-L557) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/ChenCZCXZY21```
+## Yanbin Zhao
+
+- [![](https://img.shields.io/badge/ACL-2021-blue)](https://doi.org/10.18653/v1/2021.acl-long.198)<a href="https://scholar.google.com.hk/scholar?q=LGESQL:+Line+Graph+Enhanced+Text-to-SQL+Model+with+Mixed+Local+and+Non-Local+Relations"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+Non-Local Relations**](https://doi.org/10.18653/v1/2021.acl-long.198) , <br> by *Ruisheng Cao and
+Lu Chen and
+Zhi Chen and
+Yanbin Zhao and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L455-L477) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/CaoC0ZZ020```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.441)<a href="https://scholar.google.com.hk/scholar?q=ShadowGNN:+Graph+Projection+Neural+Network+for+Text-to-SQL+Parser"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser**](https://doi.org/10.18653/v1/2021.naacl-main.441) , <br> by *Zhi Chen and
+Lu Chen and
+Yanbin Zhao and
+Ruisheng Cao and
+Zihan Xu and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L530-L557) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/ChenCZCXZY21```
+## Zhi Chen
+
+- [![](https://img.shields.io/badge/ACL-2021-blue)](https://doi.org/10.18653/v1/2021.acl-long.198)<a href="https://scholar.google.com.hk/scholar?q=LGESQL:+Line+Graph+Enhanced+Text-to-SQL+Model+with+Mixed+Local+and+Non-Local+Relations"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+Non-Local Relations**](https://doi.org/10.18653/v1/2021.acl-long.198) , <br> by *Ruisheng Cao and
+Lu Chen and
+Zhi Chen and
+Yanbin Zhao and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L455-L477) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/CaoC0ZZ020```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.441)<a href="https://scholar.google.com.hk/scholar?q=ShadowGNN:+Graph+Projection+Neural+Network+for+Text-to-SQL+Parser"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser**](https://doi.org/10.18653/v1/2021.naacl-main.441) , <br> by *Zhi Chen and
+Lu Chen and
+Yanbin Zhao and
+Ruisheng Cao and
+Zihan Xu and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L530-L557) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/ChenCZCXZY21```
+## Lu Chen
+
+- [![](https://img.shields.io/badge/ACL-2021-blue)](https://doi.org/10.18653/v1/2021.acl-long.198)<a href="https://scholar.google.com.hk/scholar?q=LGESQL:+Line+Graph+Enhanced+Text-to-SQL+Model+with+Mixed+Local+and+Non-Local+Relations"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+Non-Local Relations**](https://doi.org/10.18653/v1/2021.acl-long.198) , <br> by *Ruisheng Cao and
+Lu Chen and
+Zhi Chen and
+Yanbin Zhao and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L455-L477) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/CaoC0ZZ020```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.441)<a href="https://scholar.google.com.hk/scholar?q=ShadowGNN:+Graph+Projection+Neural+Network+for+Text-to-SQL+Parser"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser**](https://doi.org/10.18653/v1/2021.naacl-main.441) , <br> by *Zhi Chen and
+Lu Chen and
+Yanbin Zhao and
+Ruisheng Cao and
+Zihan Xu and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L530-L557) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/ChenCZCXZY21```
+## Ruisheng Cao
+
+- [![](https://img.shields.io/badge/ACL-2021-blue)](https://doi.org/10.18653/v1/2021.acl-long.198)<a href="https://scholar.google.com.hk/scholar?q=LGESQL:+Line+Graph+Enhanced+Text-to-SQL+Model+with+Mixed+Local+and+Non-Local+Relations"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+Non-Local Relations**](https://doi.org/10.18653/v1/2021.acl-long.198) , <br> by *Ruisheng Cao and
+Lu Chen and
+Zhi Chen and
+Yanbin Zhao and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L455-L477) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/CaoC0ZZ020```
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.441)<a href="https://scholar.google.com.hk/scholar?q=ShadowGNN:+Graph+Projection+Neural+Network+for+Text-to-SQL+Parser"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser**](https://doi.org/10.18653/v1/2021.naacl-main.441) , <br> by *Zhi Chen and
+Lu Chen and
+Yanbin Zhao and
+Ruisheng Cao and
+Zihan Xu and
+Su Zhu and
+Kai Yu* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L530-L557) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/ChenCZCXZY21```
+## Jonathan Berant
+
+- [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.29)<a href="https://scholar.google.com.hk/scholar?q=SmBoP:+Semi-autoregressive+Bottom-up+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**SmBoP: Semi-autoregressive Bottom-up Semantic Parsing**](https://doi.org/10.18653/v1/2021.naacl-main.29) , <br> by *Ohad Rubin and
+Jonathan Berant* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L559-L581) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/RubinB21```
+- [![](https://img.shields.io/badge/ACL-2019-blue)](https://doi.org/10.18653/v1/p19-1448)<a href="https://scholar.google.com.hk/scholar?q=Representing+Schema+Structure+with+Graph+Neural+Networks+for+Text-to-SQL+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Representing Schema Structure with Graph Neural Networks for Text-to-SQL
+Parsing**](https://doi.org/10.18653/v1/p19-1448) , <br> by *Ben Bogin and
+Jonathan Berant and
+Matt Gardner* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L352-L370) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/BoginBG19```
+## Zifan Li
+
+- [![](https://img.shields.io/badge/CoRR-2018-blue)](http://arxiv.org/abs/1810.05237)<a href="https://scholar.google.com.hk/scholar?q=SyntaxSQLNet:+Syntax+Tree+Networks+for+Complex+and+Cross-DomainText-to-SQL+Task"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL
+Task**](http://arxiv.org/abs/1810.05237) , <br> by *Tao Yu and
+Michihiro Yasunaga and
+Kai Yang and
+Rui Zhang and
+Dongxu Wang and
+Zifan Li and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L310-L329) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-1810-05237```
+- [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2093)<a href="https://scholar.google.com.hk/scholar?q=TypeSQL:+Knowledge-Based+Type-Aware+Neural+Text-to-SQL+Generation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation**](https://doi.org/10.18653/v1/n18-2093) , <br> by *Tao Yu and
+Zifan Li and
+Zilin Zhang and
+Rui Zhang and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L331-L350) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/YuLZZR18```
+## Rui Zhang
+
+- [![](https://img.shields.io/badge/CoRR-2018-blue)](http://arxiv.org/abs/1810.05237)<a href="https://scholar.google.com.hk/scholar?q=SyntaxSQLNet:+Syntax+Tree+Networks+for+Complex+and+Cross-DomainText-to-SQL+Task"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL
+Task**](http://arxiv.org/abs/1810.05237) , <br> by *Tao Yu and
+Michihiro Yasunaga and
+Kai Yang and
+Rui Zhang and
+Dongxu Wang and
+Zifan Li and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L310-L329) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-1810-05237```
+- [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2093)<a href="https://scholar.google.com.hk/scholar?q=TypeSQL:+Knowledge-Based+Type-Aware+Neural+Text-to-SQL+Generation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation**](https://doi.org/10.18653/v1/n18-2093) , <br> by *Tao Yu and
+Zifan Li and
+Zilin Zhang and
+Rui Zhang and
+Dragomir R. Radev* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L331-L350) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/YuLZZR18```
 ## Xi Victoria Lin
 
 - [![](https://img.shields.io/badge/ICLR-2021-blue)](https://openreview.net/forum?id=kyaIeYj4zZ)<a href="https://scholar.google.com.hk/scholar?q=GraPPa:+Grammar-Augmented+Pre-Training+for+Table+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**](https://openreview.net/forum?id=kyaIeYj4zZ) , <br> by *Tao Yu and
@@ -83,7 +295,7 @@ Yi Chern Tan and
 Xinyi Yang and
 Dragomir R. Radev and
 Richard Socher and
-Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L165-L183) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L143-L161) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
 - [![](https://img.shields.io/badge/EMNLP_findings-2020-blue)](https://doi.org/10.18653/v1/2020.findings-emnlp.438)<a href="https://scholar.google.com.hk/scholar?q=Bridging+Textual+and+Tabular+Data+for+Cross-Domain+Text-to-SQL+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic
 Parsing**](https://doi.org/10.18653/v1/2020.findings-emnlp.438) , <br> by *Xi Victoria Lin and
 Richard Socher and
@@ -95,7 +307,7 @@ Kaushik Chakrabarti and
 Shobhit Hathi and
 Souvik Kundu and
 Jianwen Zhang and
-Zheng Chen* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L185-L202) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2008-04759```
+Zheng Chen* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L163-L180) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2008-04759```
 - [![](https://img.shields.io/badge/CoRR-2019-blue)](http://arxiv.org/abs/1908.08113)<a href="https://scholar.google.com.hk/scholar?q=X-SQL:+reinforce+schema+representation+with+context"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**X-SQL: reinforce schema representation with context**](http://arxiv.org/abs/1908.08113) , <br> by *Pengcheng He and
 Yi Mao and
 Kaushik Chakrabarti and
@@ -123,7 +335,7 @@ Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/.
 Data**](https://doi.org/10.18653/v1/2020.acl-main.745) , <br> by *Pengcheng Yin and
 Graham Neubig and
 Wen{-}tau Yih and
-Sebastian Riedel* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L252-L272) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/YinNYR20```
+Sebastian Riedel* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L230-L250) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/acl/YinNYR20```
 - [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2115)<a href="https://scholar.google.com.hk/scholar?q=Natural+Language+to+Structured+Query+Generation+via+Meta-Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Natural Language to Structured Query Generation via Meta-Learning**](https://doi.org/10.18653/v1/n18-2115) , <br> by *Po{-}Sen Huang and
 Chenglong Wang and
 Rishabh Singh and
@@ -136,7 +348,7 @@ Ahmed Hassan Awadallah and
 Christopher Meek and
 Oleksandr Polozov and
 Huan Sun and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L224-L250) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/DengAMPSR21```
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L202-L228) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/DengAMPSR21```
 - [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
 Richard Shin and
 Xiaodong Liu and
@@ -149,23 +361,7 @@ Ahmed Hassan Awadallah and
 Christopher Meek and
 Oleksandr Polozov and
 Huan Sun and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L224-L250) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/DengAMPSR21```
-- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
-Richard Shin and
-Xiaodong Liu and
-Oleksandr Polozov and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L16) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```
-## Bailin Wang
-
-- [![](https://img.shields.io/badge/ICLR-2021-blue)](https://openreview.net/forum?id=kyaIeYj4zZ)<a href="https://scholar.google.com.hk/scholar?q=GraPPa:+Grammar-Augmented+Pre-Training+for+Table+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**](https://openreview.net/forum?id=kyaIeYj4zZ) , <br> by *Tao Yu and
-Chien{-}Sheng Wu and
-Xi Victoria Lin and
-Bailin Wang and
-Yi Chern Tan and
-Xinyi Yang and
-Dragomir R. Radev and
-Richard Socher and
-Caiming Xiong* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L165-L183) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/iclr/0009WLWTYRSX21```
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L202-L228) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/DengAMPSR21```
 - [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
 Richard Shin and
 Xiaodong Liu and

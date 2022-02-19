@@ -46,20 +46,19 @@ fined_taxonomy = {
                     "Other Learning Paradigm"],
     
     # 4: Application
-    "Application": ["Relation Extraction", "Event Extraction",
-                    "Other Application", ],
+    "Application": ["Text-to-SQL", "TableQA"],
     
     # 5: Approach
-    "Approach": ["Meta-learning", "Continual Learning", "Other Approach"],
+    "Approach": ["Seq2Seq", "Encoder-Submodule", "Meta-learning", "Continual-learning", "Other Approach"],
     
     # 6: Whether need memory
     "Memory": ["w/ External Knowledge", "w/o External Knowledge"],
     
     # 7: Setting
-    "Setting": ["Class Incremental", "N-way K-shot", "Seq2Seq", "Encoder Sub-module", "Other Setting"],
+    "Setting": ["Single-Table", "Multi-Table", "Interaction"],
     
     # 8: Research Question
-    "RQs": {"Single-Table", "Multi-Table", "Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},
+    "RQs": {"Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},
     
     # 9: Backbone
     "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",
@@ -74,7 +73,4 @@ fined_taxonomy = {
     
     # 11: Metrics
     "Metrics": ["Accuracy", "F1", "LF", "EX"],
-
-    # 12: Architecture
-    "Architecture": ["Seq2Seq", "Encoder Sub-module"],
 }

@@ -33,7 +33,7 @@ fined_taxonomy = {
     
     # 1: resource type
     "Contribution": ["New Dataset", "Survey", "Important", "New Settings or Metrics", "New Application",
-             "Empirical Study", "Theory", "New Backbone Model", "New Method", "Thesis", "Library", "Workshop",
+             "Empirical Study", "Theory", "New Pretrained Model", "New Method", "Thesis", "Library", "Workshop",
              "Other Type"],
     # 2: Area
     "Area": ["CV", "NLP", "Multi-Modal", "Robotics"],
@@ -49,13 +49,13 @@ fined_taxonomy = {
     "Application": ["Text-to-SQL", "TableQA"],
     
     # 5: Approach
-    "Approach": ["Seq2Seq", "Encoder-Submodule", "Meta-learning", "Continual-learning", "Other Approach"],
+    "Approach": ["Seq2Seq", "Encoder-submodule", "Meta-learning", "Continual-learning", "Multi-task", "Other Approach"],
     
     # 6: Whether need memory
     "Memory": ["w/ External Knowledge", "w/o External Knowledge"],
     
     # 7: Setting
-    "Setting": ["Single-Table", "Multi-Table", "Interaction"],
+    "Setting": ["Single-table", "Multi-table", "Interaction"],
     
     # 8: Research Question
     "RQs": {"Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},

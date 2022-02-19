@@ -1,6 +1,3 @@
-[![](https://img.shields.io/badge/Awesome_Continual_Learning-yellow)](https://github.com/wutong8023/Awesome_Continual_Learning.git) [![](https://img.shields.io/badge/Awesome_Few_Shot_learning-green)](https://github.com/wutong8023/Awesome_Few_Shot_Learning.git) [![](https://img.shields.io/badge/Awesome_Information_Extraction-blue)](https://github.com/wutong8023/Awesome_Information_Extraction.git) [![](https://img.shields.io/badge/Awesome_Ideas-orange)](https://github.com/wutong8023/Awesome_Ideas.git)
-
-# Text-to-SQL Literature in NLP 
 This repository is maintained by [Yongrui Chen](). Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). 
 The automation script of this repo is powered by [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git).
 
@@ -11,7 +8,8 @@ This page categorizes the literature by the Contribution, filtered by NLP area.
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/contribution/README.md#hyperlink)
 - [![](https://img.shields.io/badge/New_Dataset-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/contribution/README.md#new-dataset)
-- [![](https://img.shields.io/badge/New_Method-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/contribution/README.md#new-method)
+- [![](https://img.shields.io/badge/Important-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/contribution/README.md#important)
+- [![](https://img.shields.io/badge/New_Method-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/contribution/README.md#new-method)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
 - [[NLP]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4nlp/./)  [[CV]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4cv/./) -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/./)
@@ -35,11 +33,23 @@ Reinforcement Learning**](http://arxiv.org/abs/1709.00103) , <br> by *Victor Zho
 Caiming Xiong and
 Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L19-L45) <br>```Propose WikiSQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1709-00103```
+## Important
+
+- [![](https://img.shields.io/badge/CoRR-2019-blue)](http://arxiv.org/abs/1902.01069)<a href="https://scholar.google.com.hk/scholar?q=A+Comprehensive+Exploration+on+WikiSQL+with+Table-Aware+Word+Contextualization"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization**](http://arxiv.org/abs/1902.01069) , <br> by *Wonseok Hwang and
+Jinyeung Yim and
+Seunghyun Park and
+Minjoon Seo* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L82-L109) <br>```Propose encoder-submodule framework
+```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1902-01069```
 ## New Method
 
+- [![](https://img.shields.io/badge/CoRR-2019-blue)](http://arxiv.org/abs/1902.01069)<a href="https://scholar.google.com.hk/scholar?q=A+Comprehensive+Exploration+on+WikiSQL+with+Table-Aware+Word+Contextualization"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization**](http://arxiv.org/abs/1902.01069) , <br> by *Wonseok Hwang and
+Jinyeung Yim and
+Seunghyun Park and
+Minjoon Seo* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L82-L109) <br>```Propose encoder-submodule framework
+```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1902-01069```
 - [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2115)<a href="https://scholar.google.com.hk/scholar?q=Natural+Language+to+Structured+Query+Generation+via+Meta-Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Natural Language to Structured Query Generation via Meta-Learning**](https://doi.org/10.18653/v1/n18-2115) , <br> by *Po{-}Sen Huang and
 Chenglong Wang and
 Rishabh Singh and
 Wen{-}tau Yih and
-Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L48-L78) <br>```The first application of meta-learning to text-to-SQL
+Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L48-L79) <br>```The first application of meta-learning to text-to-SQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```HuangWSYH18```

@@ -9,6 +9,7 @@ This page categorizes the literature by the **Research Questions**.
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/research_question/README.md#hyperlink)
 - [![](https://img.shields.io/badge/Few_shot-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/research_question/README.md#few-shot)
+- [![](https://img.shields.io/badge/Schema_Linking-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/research_question/README.md#schema-linking)
 - [![](https://img.shields.io/badge/Zero_shot-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql4all/research_question/README.md#zero-shot)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
@@ -32,8 +33,16 @@ This page categorizes the literature by the **Research Questions**.
 Chenglong Wang and
 Rishabh Singh and
 Wen{-}tau Yih and
-Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L48-L79) <br>```The first application of meta-learning to text-to-SQL
+Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L56-L87) <br>```The first application of meta-learning to text-to-SQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```HuangWSYH18```
+## Schema Linking
+
+- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
+Richard Shin and
+Xiaodong Liu and
+Oleksandr Polozov and
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L5-L24) <br>```Joint Encoding of Question and Schema
+```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```
 ## Zero-shot
 
 - [![](https://img.shields.io/badge/The_Thirty_Fourth_{AAAI}_Conference_on_Artificial_Intelligence,_{AAAI}
@@ -45,4 +54,4 @@ Pengfei Liu and
 Yun Tang and
 Jing Huang and
 Xiaodong He and
-Bowen Zhou* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L140-L173) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```ChangLT0HZ20```
+Bowen Zhou* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L148-L181) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```ChangLT0HZ20```

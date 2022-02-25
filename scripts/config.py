@@ -58,7 +58,7 @@ fined_taxonomy = {
     "Setting": ["Single-table", "Multi-table", "Interaction"],
     
     # 8: Research Question
-    "RQs": {"Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},
+    "RQs": {"Schema Linking", "Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},
     
     # 9: Backbone
     "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",

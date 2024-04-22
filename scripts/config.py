@@ -18,59 +18,116 @@ base_link = f"https://github.com/{user_id}/{repo_name}/blob/{branch_name}/"
 
 # user customized taxonomy
 fined_taxonomy = {
-    "Conference": ["ACL", "EMNLP", "ACL findings", "EMNLP findings", "NAACL", "COLING", "EACL", "CoNLL", "ICML", "ICLR", "NeurIPS", "AISTATS", "AAAI",
-                   "IJCAI", "WWW", "MM", "CVPR", "ICCV", "ECCV", "WACV"],
-    
-    "Journal": [
+    "conference": [
+        "ACL", "EMNLP", "NAACL", "COLING", "EACL", "CoNLL", "ICML", "ICLR", "NeurIPS",
+        "AISTATS", "AAAI", "IJCAI", "WWW", "MM", "CVPR", "ICCV", "ECCV", "WACV", "VLDB",
+        "OpenAI", "ISoLA", "ACL Findings", "AutoML", "EMNLP Findings", "CIKM", "SIGIR",
+        "ECIR", "IA3", "EDBT", "Euro-Par", "ICDCS", "AIIoT", "ICPADS", "OSDI", "ISSTA",
+        "openreview", "FSE", "ICSE", "MSR", "WASA", "ICSME", "ASE", "ICER", "ECML",
+        "CHI", "EvoMUSART", "KDD"
+    ],
+
+    "journal": [
         ["TACL", "Transactions of the Association for Computational Linguistics", "Trans. Assoc. Comput. Linguistics"],
         ["TKDE", "IEEE Transactions on Knowledge and Data Engineering", "{IEEE} Trans. Knowl. Data Eng."],
         ["TNNLS", "IEEE Transactions on Neural Networks and Learning Systems",
          "{IEEE} Trans. Neural Networks Learn. Syst."],
         ["IPM", "Information Processing and Managemen", "Inf. Process. Manag."],
-        ["KBS", "Knowledge-BasedSystems", "Knowl. Based Syst."]],
+        ["KBS", "Knowledge-BasedSystems", "Knowl. Based Syst."],
+        ["FCST", "Journal of Frontiers of Computer Science & Technology"],
+        ['JAIR', ' Journal of Artificial Intelligence Research'],
+        ['JKSUCIS', ' Journal of King Saud University - Computer and Information Sciences'],
+        ['T-PAMI', 'IEEE Transactions on Pattern Analysis and Machine Intelligence'],
+        ['NeuroComputing', 'NeuroComputing'],
+        ['FLPI', 'Federated Learning: Privacy and Incentive'],
+        ['JIS', 'Journal of Information Science'],
+        ['TNSE', 'Trans. Netw. Sci. Eng.', 'IEEE Transactions on Network Science and Engineering'],
+        ['KIS', 'Knowl. Inf. Syst.', 'Knowledge and Information Systems'],
+        ['TIST', 'Trans. Intell. Syst. Technol.'],
+        ['JSTSP', 'J. Sel. Top. Signal Process.'],
+        ['Applied Sciences', 'Applied Sciences'],
+        ['TOIS', 'ACM Transactions on Information Systems'],
+        ['JMLR', 'J. Mach. Learn. Res.'],
+        ['IJRR', 'Int. J. Robotics Res.']
+    ],
     
-    "Preprint": ["arXiv", "CoRR"],
+    "preprint": ["arXiv", "CoRR"],
+
+    "paper_type": ["Benchmark", "Method", "Evaluation", "Survey"],
+
+    "task": [
+        "Text-to-SQL",
+        "TableQA",
+        "SQL-to-Text",
+        "SQL Debugging",
+        "SQL Optimization",
+        "Schema Linking"
+    ],
     
-    # 1: resource type
-    "Contribution": ["New Dataset", "Survey", "Important", "New Settings or Metrics", "New Application",
-             "Empirical Study", "Theory", "New Pretrained Model", "New Method", "Thesis", "Library", "Workshop",
-             "Other Type"],
-    # 2: Area
-    "Area": ["CV", "NLP", "Multi-Modal", "Robotics"],
+    "framework": ["Seq2Seq", "Sketch"],
+
+    "paradigm": [
+        "Supervised Learning",
+        "Semi-Supervised Learning",
+        "UnSupervised Learning",
+        "Reinforcement Learning",
+        "Meta Learning",
+        "Multi-task Learning",
+        "Continual Learning",
+        "Low-resource Learning",
+        "Few-shot Learning",
+        "Zero-shot Learning"
+    ],
+
+    "scenario": [
+        "Single-table",
+        "Multi-table",
+        "Interaction"
+    ],
+
+    "architecture": [
+        "Transformer",
+        "LSTM",
+        "CNN",
+        "GNN"
+    ],
     
-    # 3: Supervision
-    "Supervision": ["Supervised Learning",
-                    "Semi-Supervised Learning",
-                    "UnSupervised Learning",
-                    "Reinforcement Learning",
-                    "Other Learning Paradigm"],
-    
-    # 4: Application
-    "Application": ["Text-to-SQL", "TableQA"],
-    
-    # 5: Approach
-    "Approach": ["Seq2Seq", "Encoder-submodule", "Meta-learning", "Continual-learning", "Multi-task", "Other Approach"],
-    
-    # 6: Whether need memory
-    "Memory": ["w/ External Knowledge", "w/o External Knowledge"],
-    
-    # 7: Setting
-    "Setting": ["Single-table", "Multi-table", "Interaction"],
-    
-    # 8: Research Question
-    "RQs": {"Schema Linking", "Few-shot", "Zero-shot", "Combinatorial Generalization", "Others RQs"},
-    
-    # 9: Backbone
-    "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",
-                 "Probabilistic Graphical Model", "VAEs", "Other Structure"],
-    
-    # 10: Dataset
-    "Dataset": ["WikiSQL", "WikiTableQuestions",
-                "Spider",
-                "ATIS",
-                "Other Dataset"
-                ],
-    
-    # 11: Metrics
-    "Metrics": ["Accuracy", "F1", "LF", "EX"],
+    "dataset": [
+        "WikiSQL",
+        "WikiTableQuestions",
+        "Spider",
+        "ATIS",
+        "BIRD",
+        "BigTable-0.2k",
+        "Other Dataset"
+    ],
+
+    "metric": ["Accuracy", "F1", "LF Acc.", "EX Acc."],
+
+    "technique": [
+        "Chain of Thought",
+        "In-context Learning",
+        "Prompt Tuning",
+        "Lora"
+    ],
+
+    "llm": [
+        "BERT",
+        "RoBERTa",
+        "Grappa",
+        "TaBERT",
+        "TAPAS",
+        "GPT-1",
+        "GPT-2",
+        "GPT-3",
+        "T5",
+        "GPT-4",
+        "GPT-3.5",
+        "LLaMa2-Chat-70B",
+        "InternLM-70B",
+        "InternLM2-20B",
+        "Codellama-34B",
+        "SQLCoder-34B"
+    ],
+
 }

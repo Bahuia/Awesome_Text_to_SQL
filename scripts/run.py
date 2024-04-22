@@ -32,10 +32,6 @@ def plot_titles(titles):
 
 
 def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False):
-    external_link = "[![](https://img.shields.io/badge/Awesome_Continual_Learning-yellow)](https://github.com/wutong8023/Awesome_Continual_Learning.git) " \
-                    "[![](https://img.shields.io/badge/Awesome_Few_Shot_learning-green)](https://github.com/wutong8023/Awesome_Few_Shot_Learning.git) " \
-                    "[![](https://img.shields.io/badge/Awesome_Information_Extraction-blue)](https://github.com/wutong8023/Awesome_Information_Extraction.git) " \
-                    "[![](https://img.shields.io/badge/Awesome_Ideas-orange)](https://github.com/wutong8023/Awesome_Ideas.git)\n\n"
 
     if filename.startswith("" + your_research_topic + "4nlp"):
         # str_outline = external_link
@@ -74,165 +70,152 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
     
     return str_outline
 
-
 def get_hyperlink(hyperlinks, mapping_name):
     str_hyperlink = "## Hyperlink \n"
-    
     hyperlinks = sorted(hyperlinks)
     
     # Note: please check the branch name carefully!
     str_hyperlink += f"- [[Overview]]({base_link}README.md) -- [Homepage]({base_link}README.md)\n"
     for i, item in enumerate(hyperlinks):
+        item = item.split('/')[-1] if item != "./" else item
         str_hyperlink += "- "
-        all_link = "![](https://img.shields.io/badge/ALL-green)"
-        nlp_link = "![](https://img.shields.io/badge/NLP-green)"
-        cv_link = "![](https://img.shields.io/badge/CV-green)"
+        str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic}/{item})\n"
 
-        str_hyperlink += f"[[NLP]]({base_link + your_research_topic}4nlp/{item})"
-        str_hyperlink += f"  [[CV]]({base_link + your_research_topic}4cv/{item})"
-        str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic}4all/{item})\n"
-    
     return str_hyperlink
 
-
-def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles, sub_dirs=None, mapping_name=None):
+def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles, mapping_name=None):
     generate_md_file(DB=bib_db, list_classif=list_type, key=keys, plot_title_fct=plot_titles,
-                     filename="README.md", add_comments=True, dir_path=sub_dirs[0][index], filter_key="keywords",
-                     filter_content=["NLP", "Multi-Modal"], mapping_name=mapping_name,
-                     discrib=disc + ", filtered by NLP area.", add_hyperlink=True, hyperlinks=dir_path,
+                     filename="README.md", add_comments=True, dir_path=dir_path[index], filter_key="keywords",
+                     filter_content=[], mapping_name=mapping_name,
+                     discrib=disc, add_hyperlink=True, hyperlinks=dir_path,
                      get_outline=get_outline, get_hyperlink=get_hyperlink)
-    generate_md_file(DB=bib_db, list_classif=list_type, key=keys, plot_title_fct=plot_titles,
-                     filename="README.md", add_comments=True, dir_path=sub_dirs[1][index],
-                     filter_key="keywords", mapping_name=mapping_name,
-                     filter_content=["CV", "Multi-Modal", ],
-                     discrib=disc + ", filtered by CV area.", add_hyperlink=True,
-                     hyperlinks=dir_path, get_outline=get_outline, get_hyperlink=get_hyperlink)
-    for dir_ in [sub_dirs[2][index], "./"]:
-        generate_md_file(DB=bib_db, list_classif=list_type, key=keys, plot_title_fct=plot_titles,
-                         filename="README.md", add_comments=True, dir_path=dir_,
-                         mapping_name=mapping_name,
-                         discrib=disc + ".", add_hyperlink=True, hyperlinks=dir_path, get_outline=get_outline,
-                         get_hyperlink=get_hyperlink)
-        if index != 0:
-            break
-
 
 # check repetition
 check_repetition()
 
-dir_path = ["./", "contribution", "time", "application", "supervision", "approach", "setting",
-            "research_question", "backbone_model", "dataset", "metrics", "author", "venue"]
+taxonomy_key = list(fined_taxonomy.keys())
 
 mapping_name = {
     "./": "Summary",
+    "conference": "Conference",
+    "journal": "Journal",
+    "preprint": "Preprint",
+    "paper_type": "Paper Type",
     "venue": "Published Venue",
     "time": "Published Time",
-    "application": "Application",
-    "contribution": "Contribution",
-    "supervision": " Learning Paradigm",
-    "approach": "Approach",
+    "scenario": "Application Scenario",
+    "paradigm": " Learning Paradigm",
+    "task": "Task",
+    "framework": "SQL Generation Framework",
     "setting": "Setting",
-    "research_question": "Research Questions",
-    "backbone_model": "Backbone Model",
+    "technique": "LLM Technique",
+    "architecture": "Model Architecture",
     "dataset": "Dataset",
-    "metrics": "Metrics",
+    "metric": "Metric",
     "author": "Author",
+    "llm": "Large Language Model",
 }
-dir_path_IE4all = ["" + your_research_topic + "4all/" + dp for dp in dir_path]
-dir_path_IE4nlp = ["" + your_research_topic + "4nlp/" + dp for dp in dir_path]
-dir_path_IE4cv = ["" + your_research_topic + "4cv/" + dp for dp in dir_path]
-sub_dirs = [dir_path_IE4nlp, dir_path_IE4cv, dir_path_IE4all]
+dir_path = ["./"] + ["taxonomy/" + x for x in taxonomy_key]
 
-# 0 Home
-list_type = [[venue] for venue in fined_taxonomy["Conference"]]
-list_type += fined_taxonomy["Journal"]
-list_type.append(fined_taxonomy["Preprint"])
+# dir_path_IE4all = [dp for dp in dir_path]
+# dir_path_IE4nlp = ["" + your_research_topic + "4nlp/" + dp for dp in dir_path]
+# dir_path_IE4cv = ["" + your_research_topic + "4cv/" + dp for dp in dir_path]
+# sub_dirs = [dir_path_IE4all]
+
+# 0 Home / Paper Type
+list_type = [[x] for x in fined_taxonomy["paper_type"]]
 indexs = [0, -1]
-disc = "This page categorizes the literature by the **Published Venue**"
+disc = f"This page categorizes the literature by the **{mapping_name['paper_type']}**."
 for index in indexs:
-    plot_content(index=index, keys=["booktitle", "journal"], dir_path=dir_path, disc=disc, list_type=list_type,
-                 sub_dirs=sub_dirs, mapping_name=mapping_name)
-
-# 1 Contribution
-list_type = [[typ] for typ in fined_taxonomy["Contribution"]]
-index = 1
-disc = "This page categorizes the literature by the Contribution"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
-             mapping_name=mapping_name)
+    plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
+                  mapping_name=mapping_name)
 
 # 2 time
-list_type = [[str(year)] for year in range(1980, 2030)][::-1]
+list_type = [[str(x)] for x in range(1980, 2030)][::-1]
 index = 2
 disc = "This page categorizes the literature by the **Last Post**"
-plot_content(index=index, keys=["year"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+plot_content(index=index, keys=["year"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
-# 3 application
-list_type = [[app] for app in fined_taxonomy["Application"]]
+# 3 Task
+list_type = [[x] for x in fined_taxonomy["task"]]
 index = 3
-disc = "This page categorizes the literature by the **Few-shot Learning Application**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+disc = f"This page categorizes the literature by the **{mapping_name['task']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
-# 4 supervision
-list_type = [[sp] for sp in fined_taxonomy["Supervision"]]
+# 4 Learning Paradigm
+list_type = [[x] for x in fined_taxonomy["paradigm"]]
 index = 4
-disc = "This page categorizes the literature by the **Learning Paradigm**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+disc = f"This page categorizes the literature by the **{mapping_name['paradigm']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
-# 5 approach
-list_type = []
-for key in fined_taxonomy["Approach"]:
-    if key in fined_taxonomy.keys():
-        list_type += [[k] for k in fined_taxonomy[key]]
-    else:
-        list_type.append([key])
+# 5 Model Framework
+list_type = [[x] for x in fined_taxonomy["framework"]]
 index = 5
-disc = "This page categorizes the literature by the **Few-shot Learning Approach**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+disc = f"This page categorizes the literature by the **{mapping_name['framework']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
-# 6 setting
-list_type = [[setting] for setting in fined_taxonomy["Setting"]]
+# 6 Application Scenario
+list_type = [[x] for x in fined_taxonomy["scenario"]]
 index = 6
-disc = "This page categorizes the literature by the **Few-shot Learning Setting**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+disc = f"This page categorizes the literature by the **{mapping_name['scenario']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
-# 8 research question
-list_type = [[rq] for rq in fined_taxonomy["RQs"]]
+# 7 Model Architecture
+list_type = [[x] for x in fined_taxonomy["architecture"]]
 list_type.sort()
 index = 7
-disc = "This page categorizes the literature by the **Research Questions**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+disc = f"This page categorizes the literature by the **{mapping_name['architecture']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
-# 9 backbone model
-list_type = [[bm] for bm in fined_taxonomy["Backbone"]]
+# 8 llm
+list_type = [[x] for x in fined_taxonomy["llm"]]
+list_type.sort()
 index = 8
-disc = "This page categorizes the literature by the **Backbone Model**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+disc = f"This page categorizes the literature by the **{mapping_name['llm']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
+             mapping_name=mapping_name)
+
+# 9 LLM Technique
+list_type = [[x] for x in fined_taxonomy["technique"]]
+index = 9
+disc = f"This page categorizes the literature by the **{mapping_name['technique']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
 # 10 dataset
-list_type = [[bm] for bm in fined_taxonomy["Dataset"]]
+list_type = [[bm] for bm in fined_taxonomy["dataset"]]
 list_type.sort()
-index = 9
-disc = "This page categorizes the literature by the **Dataset**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+index = 10
+disc = f"This page categorizes the literature by the **{mapping_name['dataset']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
 # 11 Metric
-list_type = [[bm] for bm in fined_taxonomy["Metrics"]]
+list_type = [[bm] for bm in fined_taxonomy["metric"]]
 list_type.sort()
-index = 10
-disc = "This page categorizes the literature by the **Metrics**"
-plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
+index = 11
+disc = f"This page categorizes the literature by the **{mapping_name['metric']}**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
              mapping_name=mapping_name)
 
 # 12 Author
-index = 11
+index = 12
 disc = "This page categorizes the literature by the **Author**"
-plot_content(index=index, keys=["author"], dir_path=dir_path, disc=disc, list_type=None, sub_dirs=sub_dirs,
+plot_content(index=index, keys=["author"], dir_path=dir_path, disc=disc, list_type=None,
              mapping_name=mapping_name)
+
+# 13 Venue
+list_type = [[x] for x in fined_taxonomy["conference"]]
+list_type += fined_taxonomy["journal"]
+list_type.append(fined_taxonomy["preprint"])
+indexs = [13]
+disc = "This page categorizes the literature by the **Published Venue**"
+for index in indexs:
+    plot_content(index=index, keys=["booktitle", "journal"], dir_path=dir_path, disc=disc, list_type=list_type,
+                  mapping_name=mapping_name)

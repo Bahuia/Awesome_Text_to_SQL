@@ -2,6 +2,51 @@
 % Note: the keywords should be predefined in scripts/bibtext_to_md.py # fined_taxonomy
 % How to build README.md: run python scripts/bibtext_to_md.py
 
+Benchmarking the Text-to-SQL Capability of Large
+Language Models: A Comprehensive Evaluation
+
+@article{DBLP:journals/corr/abs-2403-02951,
+  author       = {Bin Zhang and
+                  Yuxiao Ye and
+                  Guoqing Du and
+                  Xiaoru Hu and
+                  Zhishuai Li and
+                  Sun Yang and
+                  Chi Harold Liu and
+                  Rui Zhao and
+                  Ziyue Li and
+                  Hangyu Mao},
+  title        = {Benchmarking the Text-to-SQL Capability of Large Language Models:
+                  {A} Comprehensive Evaluation},
+  journal      = {CoRR},
+  volume       = {abs/2403.02951},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2403.02951},
+  doi          = {10.48550/ARXIV.2403.02951},
+  eprinttype    = {arXiv},
+  eprint       = {2403.02951},
+  timestamp    = {Wed, 03 Apr 2024 15:23:01 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2403-02951.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords = {
+        Benchmark,
+        BigTable-0.2k,
+        arXiv,
+        Text-to-SQL,
+        SQL-to-Text,
+        SQL Debugging,
+        SQL Optimization,
+        Schema Linking,
+        GPT-3.5,
+        GPT-4
+        LLaMa2-Chat-70B,
+        InternLM-70B,
+        InternLM2-20B,
+        Codellama-34B,
+        SQLCoder-34B
+  }
+}
+
 @inproceedings{WangSLPR20,
 	author    = {Bailin Wang and
                     Richard Shin and
@@ -14,6 +59,7 @@
 	year      = {2020},
 	url       = {https://www.aclweb.org/anthology/2020.acl-main.677/},
 	keywords = {
+	    Method,
 	    Multi-table,
         Text-to-SQL,
         Schema Linking,
@@ -40,15 +86,16 @@
   biburl    = {https://dblp.org/rec/journals/corr/abs-1709-00103.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   keywords = {
+        Benchmark,
         Single-table,
         Text-to-SQL,
-        New Dataset,
-        NLP,
         Reinforcement Learning,
-        Seq2Seq,
-        RNNs,
+        Sketch,
+        LSTM,
         WikiSQL,
-        F1, LF, EX
+        F1,
+        LF Acc.,
+        EX Acc.
     },
 }
 @String(abs-1709-00103="Propose WikiSQL")
@@ -73,16 +120,16 @@
   biburl    = {https://dblp.org/rec/conf/naacl/HuangWSYH18.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   keywords = {
-        Few-shot,
+        Method,
+        Few-shot Learning,
         Single-table,
         Text-to-SQL,
-        New Method,
-        NLP,
-        Meta-learning,
-        RNNs,
+        Meta Learning,
+        LSTM,
         Seq2Seq,
         WikiSQL,
-        LF, EX
+        LF Acc.,
+        EX Acc.
     },
 }
 @String(HuangWSYH18="The first application of meta-learning to text-to-SQL")
@@ -103,19 +150,18 @@
   biburl    = {https://dblp.org/rec/journals/corr/abs-1902-01069.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   keywords = {
+        Method,
         Single-table,
         Text-to-SQL,
-        Important,
-        New Method,
-        NLP,
         Supervised Learning,
-        BERTs,
-        Encoder-submodule,
+        BERT,
+        Sketch,
         WikiSQL,
-        LF, EX, Accuracy
+        LF Acc.,
+        EX Acc.
     },
 }
-@String(abs-1902-01069="Propose encoder-submodule framework")
+@String(abs-1902-01069="Propose Sketch framework")
 
 @article{DBLP:journals/corr/abs-1908-08113,
   author    = {Pengcheng He and
@@ -133,15 +179,16 @@
   biburl    = {https://dblp.org/rec/journals/corr/abs-1908-08113.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   keywords = {
+        Method,
         Single-table,
-        Multi-task,
+        Multi-task Learning,
         Text-to-SQL,
-        NLP,
         Supervised Learning,
-        transformers,
-        Encoder-Submodule,
+        Transformer,
+        Sketch,
         WikiSQL,
-        LF, EX, Accuracy
+        LF Acc.,
+        EX Acc.
     },
 }
 
@@ -166,17 +213,17 @@
   biburl    = {https://dblp.org/rec/conf/aaai/ChangLT0HZ20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   keywords = {
+        Method,
         Single-table,
-        Zero-shot,
-        Multi-task,
-        w/ External Knowledge,
+        Zero-shot Learning,
+        Multi-task Learning,
         Text-to-SQL,
-        NLP,
         Supervised Learning,
-        RNNs,
-        Seq2Seq,
+        LSTM,
+        Sketch,
         WikiSQL,
-        LF, EX, Accuracy
+        LF Acc.,
+        EX Acc.
     },
 }
 
@@ -577,7 +624,7 @@
                Fei Xia and
                Wenjie Li and
                Roberto Navigli},
-  title     = {Optimizing Deeper Transformers on Small Datasets},
+  title     = {Optimizing Deeper Transformer on Small Datasets},
   booktitle = {ACL},
   pages     = {2089--2102},
   publisher = {Association for Computational Linguistics},
@@ -639,7 +686,17 @@
   doi       = {10.18653/v1/2021.naacl-main.29},
   timestamp = {Fri, 06 Aug 2021 00:41:31 +0200},
   biburl    = {https://dblp.org/rec/conf/naacl/RubinB21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  keywords = {
+        Method,
+        Spider,
+        NAACL,
+        Seq2Seq,
+        GraPPa,
+        Text-to-SQL,
+        LF Acc.,
+        EX Acc.
+  }
 }
 
 

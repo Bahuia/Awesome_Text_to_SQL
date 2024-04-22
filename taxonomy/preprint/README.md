@@ -4,12 +4,15 @@ The automation script of this repo is powered by [Auto-Bibfile](https://github.c
 
 You can directly use our bibtex.bib in overleaf with this [link]().
 
-This page categorizes the literature by the **Paper Type**.
+This page categorizes the literature by the **Task**
 
 ## Outline 
-- [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./README.md#hyperlink)
-- [![](https://img.shields.io/badge/Benchmark-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./README.md#benchmark)
-- [![](https://img.shields.io/badge/Method-6-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./README.md#method)
+- [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/preprint/README.md#hyperlink)
+- [![](https://img.shields.io/badge/Text_to_SQL-8-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/preprint/README.md#text-to-sql)
+- [![](https://img.shields.io/badge/SQL_to_Text-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/preprint/README.md#sql-to-text)
+- [![](https://img.shields.io/badge/SQL_Debugging-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/preprint/README.md#sql-debugging)
+- [![](https://img.shields.io/badge/SQL_Optimization-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/preprint/README.md#sql-optimization)
+- [![](https://img.shields.io/badge/Schema_Linking-2-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/preprint/README.md#schema-linking)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
 -  -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/./)
@@ -27,7 +30,7 @@ This page categorizes the literature by the **Paper Type**.
 -  -- [Task](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/task)
 -  -- [LLM Technique](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/technique)
 
-## Benchmark
+## Text-to-SQL
 
 - [![](https://img.shields.io/badge/CoRR-2024-blue)](https://doi.org/10.48550/arXiv.2403.02951)<a href="https://scholar.google.com.hk/scholar?q=Benchmarking+the+Text-to-SQL+Capability+of+Large+Language+Models:+A+Comprehensive+Evaluation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Benchmarking the Text-to-SQL Capability of Large Language Models:
 A Comprehensive Evaluation**](https://doi.org/10.48550/arXiv.2403.02951) , <br> by *Bin Zhang and
@@ -40,13 +43,6 @@ Chi Harold Liu and
 Rui Zhao and
 Ziyue Li and
 Hangyu Mao* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L8-L48) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2403-02951```
-- [![](https://img.shields.io/badge/CoRR-2017-blue)](http://arxiv.org/abs/1709.00103)<a href="https://scholar.google.com.hk/scholar?q=Seq2SQL:+Generating+Structured+Queries+from+Natural+Language+using+Reinforcement+Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Seq2SQL: Generating Structured Queries from Natural Language using
-Reinforcement Learning**](http://arxiv.org/abs/1709.00103) , <br> by *Victor Zhong and
-Caiming Xiong and
-Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L73-L100) <br>```Propose WikiSQL
-```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1709-00103```
-## Method
-
 - [![](https://img.shields.io/badge/NAACL-2021-blue)](https://doi.org/10.18653/v1/2021.naacl-main.29)<a href="https://scholar.google.com.hk/scholar?q=SmBoP:+Semi-autoregressive+Bottom-up+Semantic+Parsing"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**SmBoP: Semi-autoregressive Bottom-up Semantic Parsing**](https://doi.org/10.18653/v1/2021.naacl-main.29) , <br> by *Ohad Rubin and
 Jonathan Berant* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L668-L700) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:conf/naacl/RubinB21```
 - [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
@@ -80,3 +76,66 @@ Rishabh Singh and
 Wen{-}tau Yih and
 Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L103-L134) <br>```The first application of meta-learning to text-to-SQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```HuangWSYH18```
+- [![](https://img.shields.io/badge/CoRR-2017-blue)](http://arxiv.org/abs/1709.00103)<a href="https://scholar.google.com.hk/scholar?q=Seq2SQL:+Generating+Structured+Queries+from+Natural+Language+using+Reinforcement+Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Seq2SQL: Generating Structured Queries from Natural Language using
+Reinforcement Learning**](http://arxiv.org/abs/1709.00103) , <br> by *Victor Zhong and
+Caiming Xiong and
+Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L73-L100) <br>```Propose WikiSQL
+```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1709-00103```
+## SQL-to-Text
+
+- [![](https://img.shields.io/badge/CoRR-2024-blue)](https://doi.org/10.48550/arXiv.2403.02951)<a href="https://scholar.google.com.hk/scholar?q=Benchmarking+the+Text-to-SQL+Capability+of+Large+Language+Models:+A+Comprehensive+Evaluation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Benchmarking the Text-to-SQL Capability of Large Language Models:
+A Comprehensive Evaluation**](https://doi.org/10.48550/arXiv.2403.02951) , <br> by *Bin Zhang and
+Yuxiao Ye and
+Guoqing Du and
+Xiaoru Hu and
+Zhishuai Li and
+Sun Yang and
+Chi Harold Liu and
+Rui Zhao and
+Ziyue Li and
+Hangyu Mao* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L8-L48) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2403-02951```
+## SQL Debugging
+
+- [![](https://img.shields.io/badge/CoRR-2024-blue)](https://doi.org/10.48550/arXiv.2403.02951)<a href="https://scholar.google.com.hk/scholar?q=Benchmarking+the+Text-to-SQL+Capability+of+Large+Language+Models:+A+Comprehensive+Evaluation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Benchmarking the Text-to-SQL Capability of Large Language Models:
+A Comprehensive Evaluation**](https://doi.org/10.48550/arXiv.2403.02951) , <br> by *Bin Zhang and
+Yuxiao Ye and
+Guoqing Du and
+Xiaoru Hu and
+Zhishuai Li and
+Sun Yang and
+Chi Harold Liu and
+Rui Zhao and
+Ziyue Li and
+Hangyu Mao* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L8-L48) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2403-02951```
+## SQL Optimization
+
+- [![](https://img.shields.io/badge/CoRR-2024-blue)](https://doi.org/10.48550/arXiv.2403.02951)<a href="https://scholar.google.com.hk/scholar?q=Benchmarking+the+Text-to-SQL+Capability+of+Large+Language+Models:+A+Comprehensive+Evaluation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Benchmarking the Text-to-SQL Capability of Large Language Models:
+A Comprehensive Evaluation**](https://doi.org/10.48550/arXiv.2403.02951) , <br> by *Bin Zhang and
+Yuxiao Ye and
+Guoqing Du and
+Xiaoru Hu and
+Zhishuai Li and
+Sun Yang and
+Chi Harold Liu and
+Rui Zhao and
+Ziyue Li and
+Hangyu Mao* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L8-L48) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2403-02951```
+## Schema Linking
+
+- [![](https://img.shields.io/badge/CoRR-2024-blue)](https://doi.org/10.48550/arXiv.2403.02951)<a href="https://scholar.google.com.hk/scholar?q=Benchmarking+the+Text-to-SQL+Capability+of+Large+Language+Models:+A+Comprehensive+Evaluation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Benchmarking the Text-to-SQL Capability of Large Language Models:
+A Comprehensive Evaluation**](https://doi.org/10.48550/arXiv.2403.02951) , <br> by *Bin Zhang and
+Yuxiao Ye and
+Guoqing Du and
+Xiaoru Hu and
+Zhishuai Li and
+Sun Yang and
+Chi Harold Liu and
+Rui Zhao and
+Ziyue Li and
+Hangyu Mao* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L8-L48) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```DBLP:journals/corr/abs-2403-02951```
+- [![](https://img.shields.io/badge/ACL-2020-blue)](https://www.aclweb.org/anthology/2020.acl-main.677/)<a href="https://scholar.google.com.hk/scholar?q=RAT-SQL:+Relation-Aware+Schema+Encoding+and+Linking+for+Text-to-SQL+Parsers"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers**](https://www.aclweb.org/anthology/2020.acl-main.677/) , <br> by *Bailin Wang and
+Richard Shin and
+Xiaodong Liu and
+Oleksandr Polozov and
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L50-L70) <br>```Joint Encoding of Question and Schema
+```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```

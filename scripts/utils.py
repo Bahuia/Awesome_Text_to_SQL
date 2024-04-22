@@ -141,11 +141,13 @@ def get_md(DB, item, key, add_comments, filter_key="", filter_content=None):
     number_of_entries = len(DB.entries)
     for i in range(number_of_entries):
         if key in DB.entries[i].keys():
-            if filter_key != "":
-                if not (filter_key in DB.entries[i].keys() and any(
-                        elem in DB.entries[i][filter_key] for elem in filter_content)):
-                    continue
-            
+            # if filter_key != "":
+            #     print(filter_key in DB.entries[i].keys(), any(
+            #             elem in DB.entries[i][filter_key] for elem in filter_content))
+            #     if not (filter_key in DB.entries[i].keys() and any(
+            #             elem in DB.entries[i][filter_key] for elem in filter_content)):
+            #         continue
+
             if key == "booktitle" or key == "journal":
                 if any(DB.entries[i][key].replace("Proceedings of ", "").startswith(elem) for elem in item):
                     str_md = get_md_entry(DB, DB.entries[i], add_comments)
@@ -229,7 +231,7 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, get_outlin
     all_in_one_str_content = ""
     
     count_list = []
-    
+
     if list_classif is None and "author" in key:
         list_classif = get_author_list(DB, filter_key, filter_content)
         list_classif = [[author] for author in list_classif]
@@ -238,7 +240,10 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, get_outlin
         temp_str = ""
         count = 0
         for k in key:
+            # print(filter_key)
+            # print(DB, item, k, add_comments, filter_key, filter_content)
             str, temp_count = get_md(DB, item, k, add_comments, filter_key, filter_content)
+            # print(str, temp_count)
             temp_str += str
             count += temp_count
             if str != "":
@@ -247,14 +252,14 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, get_outlin
         if temp_str != "":
             list_classif_keeped.append(item)
             count_list.append(count)
-    
+
     all_in_one_str += get_outline(list_classif_keeped, count_list, filename, discrib, add_hyperlink)
     
     if add_hyperlink:
         all_in_one_str += get_hyperlink(hyperlinks, mapping_name)
     
     all_in_one_str += all_in_one_str_content
-    
+
     f = open(filename, "w")
     f.write(all_in_one_str)
     f.close()

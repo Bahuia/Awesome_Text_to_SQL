@@ -105,17 +105,40 @@ fined_taxonomy = {
         "ATIS",
         "BIRD",
         "BigTable-0.2k",
-        "Other Dataset"
+        "Bank-Financials",
+        "Aminer-Simplified",
+        "Spider-DK",
+        "Spider-Syn",
+        "Spider-Realistic",
+        "Dr.Spider",
     ],
 
-    "metric": ["Accuracy", "F1", "LF Acc.", "EX Acc."],
+    "metric": [
+        "Accuracy",
+        "F1",
+        "EM",
+        "EX",
+        "VES",
+        "AUC",
+        "TS",
+        "RES",
+        "Rouge-1",
+        "Rouge-2",
+        "Rouge-L",
+        "BertScore",
+        "ChatGPT Evaluator",
+        "InternLM2 Evaluator"
+    ],
 
     "technique": [
         "Chain of Thought",
         "Hard Prompt",
         "P-Tuning",
         "Prompt Tuning",
-        "Lora"
+        "Lora",
+        "Supervised Fine-tuning",
+        "Data Augmentation",
+        "Incremental Pre-training"
     ],
 
     "llm": [
@@ -134,7 +157,9 @@ fined_taxonomy = {
         "InternLM-70B",
         "InternLM2-20B",
         "Codellama-34B",
-        "SQLCoder-34B"
+        "SQLCoder-34B",
+        "StarCoder",
+        "CodeS"
     ],
 
 }

@@ -111,6 +111,7 @@ def get_md_entry(DB, entry, add_comments=True):
     
     if add_comments:
         # maybe there is a comment to write
+        # print(entry['ID'].lower())
         if entry['ID'].lower() in DB.strings:
             # print("Com : " + entry['ID'])
             md_str += '```'
@@ -137,7 +138,7 @@ def get_md(DB, item, key, add_comments, filter_key="", filter_content=None):
     all_str = ""
     
     list_entry = {}
-    
+
     number_of_entries = len(DB.entries)
     for i in range(number_of_entries):
         if key in DB.entries[i].keys():
@@ -240,12 +241,10 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, get_outlin
         temp_str = ""
         count = 0
         for k in key:
-            # print(filter_key)
-            # print(DB, item, k, add_comments, filter_key, filter_content)
             str, temp_count = get_md(DB, item, k, add_comments, filter_key, filter_content)
-            # print(str, temp_count)
             temp_str += str
             count += temp_count
+
             if str != "":
                 all_in_one_str_content += plot_title_fct(item)
                 all_in_one_str_content += str

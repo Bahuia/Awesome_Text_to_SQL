@@ -5,7 +5,94 @@
 Benchmarking the Text-to-SQL Capability of Large
 Language Models: A Comprehensive Evaluation
 
-@inproceedings{conf/nips/PourrezaR23,
+
+@article{journals-corr-abs-2403-09732,
+  author       = {Zhishuai Li and
+                  Xiang Wang and
+                  Jingjing Zhao and
+                  Sun Yang and
+                  Guoqing Du and
+                  Xiaoru Hu and
+                  Bin Zhang and
+                  Yuxiao Ye and
+                  Ziyue Li and
+                  Rui Zhao and
+                  Hangyu Mao},
+  title        = {{PET-SQL:} {A} Prompt-enhanced Two-stage Text-to-SQL Framework with
+                  Cross-consistency},
+  journal      = {CoRR},
+  volume       = {abs/2403.09732},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2403.09732},
+  doi          = {10.48550/ARXIV.2403.09732},
+  eprinttype    = {arXiv},
+  eprint       = {2403.09732},
+  timestamp    = {Fri, 05 Apr 2024 14:02:06 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2403-09732.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords = {
+        Method,
+        Spider,
+        Text-to-SQL,
+        Pipeline,
+        In-context Learning,
+        Hard Prompt,
+        GPT-4,
+        Schema Linking,
+        EX,
+  }
+}
+@String(journals-corr-abs-2403-09732="PET-SQL, Two-stage pure prompt method, retrieve domain-agnostic examples, voting for curation")
+
+@article{journals-corr-abs-2402-16347,
+  author       = {Haoyang Li and
+                  Jing Zhang and
+                  Hanbing Liu and
+                  Ju Fan and
+                  Xiaokang Zhang and
+                  Jun Zhu and
+                  Renjie Wei and
+                  Hongyan Pan and
+                  Cuiping Li and
+                  Hong Chen},
+  title        = {CodeS: Towards Building Open-source Language Models for Text-to-SQL},
+  journal      = {CoRR},
+  volume       = {abs/2402.16347},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2402.16347},
+  doi          = {10.48550/ARXIV.2402.16347},
+  eprinttype    = {arXiv},
+  eprint       = {2402.16347},
+  timestamp    = {Thu, 18 Apr 2024 16:10:15 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2402-16347.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords = {
+        Method,
+        Spider,
+        BIRD,
+        Spider-DK,
+        Spider-Syn,
+        Spider-Realistic,
+        Dr.Spider,
+        Text-to-SQL,
+        Seq2Seq,
+        In-context Learning,
+        CodeS,
+        Supervised Fine-tuning,
+        Incremental Pre-training,
+        Data Augmentation,
+        Schema Linking,
+        GPT-3.5,
+        Hard Prompt,
+        EX,
+        VES,
+        TS
+  }
+}
+@String(journals-corr-abs-2402-16347="Propose CodeS, a LLM for text-to-SQL. 1. Use two direction data augmentation: SQL->Text, Text->SQL; 2. Construct prompts of database metadata with a coarse filtering and matching; 3. Further Pretraining")
+
+
+@inproceedings{conf-nips-PourrezaR23,
   author       = {Mohammadreza Pourreza and
                   Davood Rafiei},
   editor       = {Alice Oh and
@@ -32,14 +119,15 @@ Language Models: A Comprehensive Evaluation
         SQL Debugging,
         Schema Linking,
         Nat-SQL,
-        GPT-4
+        GPT-4,
+        EM,
+        EX,
+        VES
   }
 }
-@String(conf/nips/PourrezaR23="First construct a pipeline to split text-to-SQL into multiple subtasks,
-then leverage in-context learning to handle each subtask.
-Classify the example into three forms: simple, nested complex and non-nested complex")
+@String(conf-nips-PourrezaR23="First construct a pipeline to split text-to-SQL into multiple subtasks, then leverage in-context learning to handle each subtask. Classify the example into three forms: simple, nested complex and non-nested complex.")
 
-@article{journals/corr/abs-2403-02951,
+@article{journals-corr-abs-2403-02951,
   author       = {Bin Zhang and
                   Yuxiao Ye and
                   Guoqing Du and
@@ -77,7 +165,16 @@ Classify the example into three forms: simple, nested complex and non-nested com
         InternLM-70B,
         InternLM2-20B,
         Codellama-34B,
-        SQLCoder-34B
+        SQLCoder-34B,
+        VES,
+        C-VES,
+        Rouge-1,
+        Rouge-2,
+        Rouge-L,
+        BertScore,
+        ChatGPT Evaluator,
+        InternLM2 Evaluator,
+        RES,
   }
 }
 
@@ -128,8 +225,8 @@ Classify the example into three forms: simple, nested complex and non-nested com
         LSTM,
         WikiSQL,
         F1,
-        LF Acc.,
-        EX Acc.
+        EM,
+        EX
     },
 }
 @String(abs-1709-00103="Propose WikiSQL")
@@ -162,8 +259,8 @@ Classify the example into three forms: simple, nested complex and non-nested com
         LSTM,
         Seq2Seq,
         WikiSQL,
-        LF Acc.,
-        EX Acc.
+        EM,
+        EX
     },
 }
 @String(HuangWSYH18="The first application of meta-learning to text-to-SQL")
@@ -191,13 +288,13 @@ Classify the example into three forms: simple, nested complex and non-nested com
         BERT,
         Sketch,
         WikiSQL,
-        LF Acc.,
-        EX Acc.
+        EM,
+        EX
     },
 }
-@String(abs-1902-01069="Propose Sketch framework")
+@String(abs-1902-01069="Propose Sketch framework to generate SQL")
 
-@article{journals/corr/abs-1908-08113,
+@article{journals-corr-abs-1908-08113,
   author    = {Pengcheng He and
                Yi Mao and
                Kaushik Chakrabarti and
@@ -221,8 +318,8 @@ Classify the example into three forms: simple, nested complex and non-nested com
         Transformer,
         Sketch,
         WikiSQL,
-        LF Acc.,
-        EX Acc.
+        EM,
+        EX
     },
 }
 
@@ -252,12 +349,12 @@ Classify the example into three forms: simple, nested complex and non-nested com
         LSTM,
         Sketch,
         WikiSQL,
-        LF Acc.,
-        EX Acc.
+        EM,
+        EX
     },
 }
 
-@inproceedings{conf/emnlp/LinSX20,
+@inproceedings{conf-emnlp-LinSX20,
   author    = {Xi Victoria Lin and
                Richard Socher and
                Caiming Xiong},
@@ -279,7 +376,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/iclr/0009WLWTYRSX21,
+@inproceedings{conf-iclr-0009WLWTYRSX21,
   author    = {Tao Yu and
                Chien{-}Sheng Wu and
                Xi Victoria Lin and
@@ -299,7 +396,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{journals/corr/abs-2008-04759,
+@article{journals-corr-abs-2008-04759,
   author    = {Qin Lyu and
                Kaushik Chakrabarti and
                Shobhit Hathi and
@@ -318,7 +415,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{journals/corr/abs-2103-04399,
+@article{journals-corr-abs-2103-04399,
   author    = {Binyuan Hui and
                Xiang Shi and
                Ruiying Geng and
@@ -338,7 +435,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/naacl/DengAMPSR21,
+@inproceedings{conf-naacl-DengAMPSR21,
   author    = {Xiang Deng and
                Ahmed Hassan Awadallah and
                Christopher Meek and
@@ -366,7 +463,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/YinNYR20,
+@inproceedings{conf-acl-YinNYR20,
   author    = {Pengcheng Yin and
                Graham Neubig and
                Wen{-}tau Yih and
@@ -388,7 +485,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/HerzigNMPE20,
+@inproceedings{conf-acl-HerzigNMPE20,
   author    = {Jonathan Herzig and
                Pawel Krzysztof Nowak and
                Thomas M{\"{u}}ller and
@@ -410,7 +507,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/aaai/ChenG0QQWL21,
+@inproceedings{conf-aaai-ChenG0QQWL21,
   author    = {Yongrui Chen and
                Xinnan Guo and
                Chaojie Wang and
@@ -429,7 +526,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{journals/corr/abs-1711-04436,
+@article{journals-corr-abs-1711-04436,
   author    = {Xiaojun Xu and
                Chang Liu and
                Dawn Song},
@@ -446,7 +543,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{journals/corr/abs-1810-05237,
+@article{journals-corr-abs-1810-05237,
   author    = {Tao Yu and
                Michihiro Yasunaga and
                Kai Yang and
@@ -467,7 +564,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/naacl/YuLZZR18,
+@inproceedings{conf-naacl-YuLZZR18,
   author    = {Tao Yu and
                Zifan Li and
                Zilin Zhang and
@@ -488,7 +585,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/BoginBG19,
+@inproceedings{conf-acl-BoginBG19,
   author    = {Ben Bogin and
                Jonathan Berant and
                Matt Gardner},
@@ -508,7 +605,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/GuoZGXLLZ19,
+@inproceedings{conf-acl-GuoZGXLLZ19,
   author    = {Jiaqi Guo and
                Zecheng Zhan and
                Yan Gao and
@@ -532,7 +629,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/SuhrCSL20,
+@inproceedings{conf-acl-SuhrCSL20,
   author    = {Alane Suhr and
                Ming{-}Wei Chang and
                Peter Shaw and
@@ -554,7 +651,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{journals/corr/abs-2101-09901,
+@article{journals-corr-abs-2101-09901,
   author    = {Liang Zhao and
                Hexin Cao and
                Yunsong Zhao},
@@ -570,7 +667,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/aaai/ShiNWZLWSX21,
+@inproceedings{conf-aaai-ShiNWZLWSX21,
   author    = {Peng Shi and
                Patrick Ng and
                Zhiguo Wang and
@@ -591,7 +688,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/CaoC0ZZ020,
+@inproceedings{conf-acl-CaoC0ZZ020,
   author    = {Ruisheng Cao and
                Lu Chen and
                Zhi Chen and
@@ -615,7 +712,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/naacl/WangLT21,
+@inproceedings{conf-naacl-WangLT21,
   author    = {Bailin Wang and
                Mirella Lapata and
                Ivan Titov},
@@ -640,7 +737,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/acl/Xu0YZT0CPC20,
+@inproceedings{conf-acl-Xu0YZT0CPC20,
   author    = {Peng Xu and
                Dhruv Kumar and
                Wei Yang and
@@ -666,7 +763,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/naacl/ChenCZCXZY21,
+@inproceedings{conf-naacl-ChenCZCXZY21,
   author    = {Zhi Chen and
                Lu Chen and
                Yanbin Zhao and
@@ -695,7 +792,7 @@ Classify the example into three forms: simple, nested complex and non-nested com
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{conf/naacl/RubinB21,
+@inproceedings{conf-naacl-RubinB21,
   author    = {Ohad Rubin and
                Jonathan Berant},
   editor    = {Kristina Toutanova and
@@ -724,8 +821,8 @@ Classify the example into three forms: simple, nested complex and non-nested com
         Seq2Seq,
         GraPPa,
         Text-to-SQL,
-        LF Acc.,
-        EX Acc.
+        EM,
+        EX
   }
 }
 

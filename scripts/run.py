@@ -114,13 +114,10 @@ mapping_name = {
     "metric": "Metric",
     "author": "Author",
     "llm": "Large Language Model",
+    "intermedia": "Intermedia Representation"
 }
 dir_path = ["./"] + ["taxonomy/" + x for x in taxonomy_key]
 
-# dir_path_IE4all = [dp for dp in dir_path]
-# dir_path_IE4nlp = ["" + your_research_topic + "4nlp/" + dp for dp in dir_path]
-# dir_path_IE4cv = ["" + your_research_topic + "4cv/" + dp for dp in dir_path]
-# sub_dirs = [dir_path_IE4all]
 
 # 0 Home / Paper Type
 list_type = [[x] for x in fined_taxonomy["paper_type"]]
@@ -219,3 +216,12 @@ disc = "This page categorizes the literature by the **Published Venue**"
 for index in indexs:
     plot_content(index=index, keys=["booktitle", "journal"], dir_path=dir_path, disc=disc, list_type=list_type,
                   mapping_name=mapping_name)
+
+# Intermedia Representation
+list_type = [[x] for x in fined_taxonomy["intermedia"]]
+list_type.sort()
+index = 14
+disc = "This page categorizes the literature by the **Intermedia Representation**"
+plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type,
+             mapping_name=mapping_name)
+

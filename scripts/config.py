@@ -64,7 +64,7 @@ fined_taxonomy = {
         "Schema Linking"
     ],
     
-    "framework": ["Seq2Seq", "Sketch"],
+    "framework": ["Seq2Seq", "Sketch", "Pipeline"],
 
     "paradigm": [
         "Supervised Learning",
@@ -76,7 +76,13 @@ fined_taxonomy = {
         "Continual Learning",
         "Low-resource Learning",
         "Few-shot Learning",
-        "Zero-shot Learning"
+        "Zero-shot Learning",
+        "In-context Learning"
+    ],
+
+    "intermedia": [
+        "SemQL",
+        "NatSQL",
     ],
 
     "scenario": [
@@ -106,7 +112,8 @@ fined_taxonomy = {
 
     "technique": [
         "Chain of Thought",
-        "In-context Learning",
+        "Hard Prompt",
+        "P-Tuning",
         "Prompt Tuning",
         "Lora"
     ],

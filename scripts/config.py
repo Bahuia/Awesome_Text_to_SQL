@@ -140,6 +140,7 @@ fined_taxonomy = {
 
     "technique": [
         "Chain of Thought",
+        "Program of Thought",
         "Hard Prompt",
         "P-Tuning",
         "Prompt Tuning",

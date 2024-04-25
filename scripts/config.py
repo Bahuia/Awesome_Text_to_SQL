@@ -61,10 +61,18 @@ fined_taxonomy = {
         "SQL-to-Text",
         "SQL Debugging",
         "SQL Optimization",
-        "Schema Linking"
+        "Schema Linking",
+        "Triple Extraction",
     ],
     
-    "framework": ["Seq2Seq", "Sketch", "Pipeline"],
+    "framework": [
+        "Seq2Seq",
+        "Sketch",
+        "Pipeline",
+        "Schema-aware Encoding",
+        "Bottom-up Decoding",
+        "Top-down Decoding"
+    ],
 
     "paradigm": [
         "Supervised Learning",
@@ -138,7 +146,8 @@ fined_taxonomy = {
         "Lora",
         "Supervised Fine-tuning",
         "Data Augmentation",
-        "Incremental Pre-training"
+        "Incremental Pre-training",
+        "Retrieval-augmented Generation"
     ],
 
     "llm": [

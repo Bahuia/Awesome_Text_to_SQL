@@ -11,24 +11,24 @@ This page categorizes the literature by the **Intermedia Representation**
 - [![](https://img.shields.io/badge/NatSQL-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/llm/README.md#natsql)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
--  -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/./)
--  -- [Model Architecture](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/architecture)
--  -- [Conference](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/conference)
--  -- [Dataset](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/dataset)
--  -- [SQL Generation Framework](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/framework)
--  -- [Intermedia Representation](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/intermedia)
--  -- [Journal](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/journal)
--  -- [Large Language Model](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/llm)
--  -- [Metric](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/metric)
--  -- [Paper Type](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/paper_type)
--  -- [ Learning Paradigm](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/paradigm)
--  -- [Preprint](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/preprint)
--  -- [Application Scenario](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/scenario)
--  -- [Task](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/task)
--  -- [LLM Technique](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/technique)
+-  -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./)
+-  -- [Model Architecture](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/architecture)
+-  -- [Conference](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/conference)
+-  -- [Dataset](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/dataset)
+-  -- [SQL Generation Framework](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/framework)
+-  -- [Intermedia Representation](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/intermedia)
+-  -- [Journal](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/journal)
+-  -- [Large Language Model](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/llm)
+-  -- [Metric](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/metric)
+-  -- [Paper Type](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/paper_type)
+-  -- [ Learning Paradigm](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/paradigm)
+-  -- [Preprint](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/preprint)
+-  -- [Application Scenario](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scenario)
+-  -- [Task](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/task)
+-  -- [LLM Technique](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/technique)
 
 ## NatSQL
 
 - [![](https://img.shields.io/badge/NeurIPS_2023-2023-blue)](http://papers.nips.cc/paper\_files/paper/2023/hash/72223cc66f63ca1aa59edaec1b3670e6-Abstract-Conference.html)<a href="https://scholar.google.com.hk/scholar?q=DIN-SQL:+Decomposed+In-Context+Learning+of+Text-to-SQL+with+Self-Correction"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction**](http://papers.nips.cc/paper\_files/paper/2023/hash/72223cc66f63ca1aa59edaec1b3670e6-Abstract-Conference.html) , <br> by *Mohammadreza Pourreza and
-Davood Rafiei* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L95-L127) <br>```First construct a pipeline to split text-to-SQL into multiple subtasks, then leverage in-context learning to handle each subtask. Classify the example into three forms: simple, nested complex and non-nested complex.
+Davood Rafiei* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L144-L176) <br>```First construct a pipeline to split text-to-SQL into multiple subtasks, then leverage in-context learning to handle each subtask. Classify the example into three forms: simple, nested complex and non-nested complex.
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```conf-nips-PourrezaR23```

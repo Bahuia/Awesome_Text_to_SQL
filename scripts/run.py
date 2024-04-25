@@ -79,7 +79,8 @@ def get_hyperlink(hyperlinks, mapping_name):
     for i, item in enumerate(hyperlinks):
         item = item.split('/')[-1] if item != "./" else item
         str_hyperlink += "- "
-        str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic}/{item})\n"
+        # str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic}/{item})\n"
+        str_hyperlink += f" -- [{mapping_name[item]}]({base_link}{item})\n"
 
     return str_hyperlink
 

@@ -12,21 +12,21 @@ This page categorizes the literature by the **Application Scenario**
 - [![](https://img.shields.io/badge/Multi_table-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/framework/README.md#multi-table)
 ## Hyperlink 
 - [[Overview]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md) -- [Homepage](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/README.md)
--  -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/./)
--  -- [Model Architecture](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/architecture)
--  -- [Conference](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/conference)
--  -- [Dataset](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/dataset)
--  -- [SQL Generation Framework](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/framework)
--  -- [Intermedia Representation](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/intermedia)
--  -- [Journal](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/journal)
--  -- [Large Language Model](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/llm)
--  -- [Metric](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/metric)
--  -- [Paper Type](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/paper_type)
--  -- [ Learning Paradigm](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/paradigm)
--  -- [Preprint](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/preprint)
--  -- [Application Scenario](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/scenario)
--  -- [Task](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/task)
--  -- [LLM Technique](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/text2sql/technique)
+-  -- [Summary](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./)
+-  -- [Model Architecture](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/architecture)
+-  -- [Conference](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/conference)
+-  -- [Dataset](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/dataset)
+-  -- [SQL Generation Framework](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/framework)
+-  -- [Intermedia Representation](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/intermedia)
+-  -- [Journal](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/journal)
+-  -- [Large Language Model](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/llm)
+-  -- [Metric](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/metric)
+-  -- [Paper Type](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/paper_type)
+-  -- [ Learning Paradigm](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/paradigm)
+-  -- [Preprint](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/preprint)
+-  -- [Application Scenario](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scenario)
+-  -- [Task](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/task)
+-  -- [LLM Technique](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/technique)
 
 ## Single-table
 
@@ -35,26 +35,26 @@ Pengfei Liu and
 Yun Tang and
 Jing Huang and
 Xiaodong He and
-Bowen Zhou* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L326-L355) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```ChangLT0HZ20```
+Bowen Zhou* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L375-L404) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```ChangLT0HZ20```
 - [![](https://img.shields.io/badge/CoRR-2019-blue)](http://arxiv.org/abs/1902.01069)<a href="https://scholar.google.com.hk/scholar?q=A+Comprehensive+Exploration+on+WikiSQL+with+Table-Aware+Word+Contextualization"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization**](http://arxiv.org/abs/1902.01069) , <br> by *Wonseok Hwang and
 Jinyeung Yim and
 Seunghyun Park and
-Minjoon Seo* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L268-L294) <br>```Propose Sketch framework to generate SQL
+Minjoon Seo* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L317-L343) <br>```Propose Sketch framework to generate SQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1902-01069```
 - [![](https://img.shields.io/badge/CoRR-2019-blue)](http://arxiv.org/abs/1908.08113)<a href="https://scholar.google.com.hk/scholar?q=X-SQL:+reinforce+schema+representation+with+context"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**X-SQL: reinforce schema representation with context**](http://arxiv.org/abs/1908.08113) , <br> by *Pengcheng He and
 Yi Mao and
 Kaushik Chakrabarti and
-Weizhu Chen* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L297-L324) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```journals-corr-abs-1908-08113```
+Weizhu Chen* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L346-L373) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```journals-corr-abs-1908-08113```
 - [![](https://img.shields.io/badge/NAACL-2018-blue)](https://doi.org/10.18653/v1/n18-2115)<a href="https://scholar.google.com.hk/scholar?q=Natural+Language+to+Structured+Query+Generation+via+Meta-Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Natural Language to Structured Query Generation via Meta-Learning**](https://doi.org/10.18653/v1/n18-2115) , <br> by *Po{-}Sen Huang and
 Chenglong Wang and
 Rishabh Singh and
 Wen{-}tau Yih and
-Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L234-L265) <br>```The first application of meta-learning to text-to-SQL
+Xiaodong He* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L283-L314) <br>```The first application of meta-learning to text-to-SQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```HuangWSYH18```
 - [![](https://img.shields.io/badge/CoRR-2017-blue)](http://arxiv.org/abs/1709.00103)<a href="https://scholar.google.com.hk/scholar?q=Seq2SQL:+Generating+Structured+Queries+from+Natural+Language+using+Reinforcement+Learning"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Seq2SQL: Generating Structured Queries from Natural Language using
 Reinforcement Learning**](http://arxiv.org/abs/1709.00103) , <br> by *Victor Zhong and
 Caiming Xiong and
-Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L204-L231) <br>```Propose WikiSQL
+Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L253-L280) <br>```Propose WikiSQL
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```abs-1709-00103```
 ## Multi-table
 
@@ -62,5 +62,5 @@ Richard Socher* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/maste
 Richard Shin and
 Xiaodong Liu and
 Oleksandr Polozov and
-Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L181-L201) <br>```Joint Encoding of Question and Schema
+Matthew Richardson* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L230-L250) <br>```Joint Encoding of Question and Schema
 ```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```WangSLPR20```

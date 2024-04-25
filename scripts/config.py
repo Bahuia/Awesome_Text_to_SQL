@@ -63,6 +63,7 @@ fined_taxonomy = {
         "SQL Optimization",
         "Schema Linking",
         "Triple Extraction",
+        "Structured Data Representation"
     ],
     
     "framework": [

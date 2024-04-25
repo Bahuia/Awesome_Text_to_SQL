@@ -151,6 +151,8 @@ def get_md(DB, item, key, add_comments, filter_key="", filter_content=None):
             #             elem in DB.entries[i][filter_key] for elem in filter_content)):
             #         continue
 
+            # print(item)
+
             if key == "booktitle" or key == "journal":
                 if any(DB.entries[i][key].replace("Proceedings of ", "").startswith(elem) for elem in item):
                     str_md = get_md_entry(DB, DB.entries[i], add_comments)
@@ -196,12 +198,15 @@ def get_author_list(DB, filter_key, filter_content, filter_num=1):
     entries = DB.entries
     author_dict = {}
     for i, entry in enumerate(entries):
-        if filter_key != "":
-            if not (filter_key in entry.keys() and any(
-                    elem in entry[filter_key] for elem in filter_content)):
-                continue
-        
+        # print(filter_key)
+        # print(filter_content)
+        # if filter_key != "":
+        #     if not (filter_key in entry.keys() and any(
+        #             elem in entry[filter_key] for elem in filter_content)):
+        #         continue
+
         author_list = format_author(entry["author"])
+        # print(author_list)
         
         for author in author_list:
             if author in author_dict.keys():
@@ -238,7 +243,7 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, get_outlin
     if list_classif is None and "author" in key:
         list_classif = get_author_list(DB, filter_key, filter_content)
         list_classif = [[author] for author in list_classif]
-    
+
     for item in list_classif:
         temp_str = ""
         count = 0

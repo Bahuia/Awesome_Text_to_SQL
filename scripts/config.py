@@ -48,7 +48,8 @@ fined_taxonomy = {
         ['Applied Sciences', 'Applied Sciences'],
         ['TOIS', 'ACM Transactions on Information Systems'],
         ['JMLR', 'J. Mach. Learn. Res.'],
-        ['IJRR', 'Int. J. Robotics Res.']
+        ['IJRR', 'Int. J. Robotics Res.'],
+        ['IJISAE','International Journal of Intelligent Systems and Applications in Engineering']
     ],
     
     "preprint": ["arXiv", "CoRR"],
@@ -122,6 +123,8 @@ fined_taxonomy = {
         "Spider-Syn",
         "Spider-Realistic",
         "Dr.Spider",
+        "Advising",
+        "EHRQSL"
     ],
 
     "metric": [
@@ -138,7 +141,8 @@ fined_taxonomy = {
         "Rouge-L",
         "BertScore",
         "ChatGPT Evaluator",
-        "InternLM2 Evaluator"
+        "InternLM2 Evaluator",
+        "Reliability Score"
     ],
 
     "technique": [
@@ -172,7 +176,9 @@ fined_taxonomy = {
         "Codellama-34B",
         "SQLCoder-34B",
         "StarCoder",
-        "CodeS"
+        "CodeS",
+        "LLaMa2-7B",
+        "CodeLLaMa"
     ],
 
 }

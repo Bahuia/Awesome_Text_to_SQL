@@ -129,6 +129,8 @@ fined_taxonomy = {
 
     "metric": [
         "Accuracy",
+        "Precision",
+        "Recall",
         "F1",
         "EM",
         "EX",
@@ -178,7 +180,9 @@ fined_taxonomy = {
         "StarCoder",
         "CodeS",
         "LLaMa2-7B",
-        "CodeLLaMa"
+        "CodeLLaMa",
+        "Mistral-7B",
+        "DeepSeek-7B"
     ],
 
 }

@@ -14,6 +14,7 @@ This page categorizes the literature by the **Published Venue**
 - [![](https://img.shields.io/badge/ICLR-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/venue/README.md#iclr)
 - [![](https://img.shields.io/badge/NeurIPS-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/venue/README.md#neurips)
 - [![](https://img.shields.io/badge/AAAI-3-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/venue/README.md#aaai)
+- [![](https://img.shields.io/badge/VLDB-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/venue/README.md#vldb)
 - [![](https://img.shields.io/badge/IJISAE-1-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/venue/README.md#ijisae)
 - [![](https://img.shields.io/badge/arXiv-17-blue)](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/taxonomy/venue/README.md#arxiv)
 ## Hyperlink 
@@ -162,6 +163,16 @@ Yun Tang and
 Jing Huang and
 Xiaodong He and
 Bowen Zhou* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L583-L612) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```ChangLT0HZ20```
+## VLDB
+
+- [![](https://img.shields.io/badge/VLDB-2024-blue)](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)<a href="https://scholar.google.com.hk/scholar?q=Text-to-SQL+Empowered+by+Large+Language+Models:+A+Benchmark+Evaluation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> [**Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation**](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf) , <br> by *Dawei Gao and
+Haibin Wang and
+Yaliang Li and
+Xiuyu Sun and
+Yichen Qian and
+Bolin Ding and
+Jingren Zhou* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L8-L54) <br>```Evaluate Prompt Engnieering, In-context learning and SFT
+```</details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```pvldb-GaoWLSQDZ24```
 ## IJISAE
 
 - <a href="https://scholar.google.com.hk/scholar?q=SFT+for+Improved+Text-to-SQL+Translation"><img src="https://img.shields.io/badge/-blue.svg?&logo=google-scholar&logoColor=white" height="18" align="bottom"></a> **SFT for Improved Text-to-SQL Translation**, <br> by *Ojha, Puneet Kumar, Gautam, Abhishek, Agrahari, Ankit and Singh, Parikshit* [[bib]](https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/./bibtex.bib#L97-L116) <br></details><details><summary><img src=https://github.com/bahuia/Awesome_Text_to_SQL/blob/master/scripts/svg/copy_icon.png height="20" align="bottom"></summary><pre>```ojha2024sft```

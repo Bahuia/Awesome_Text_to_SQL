@@ -5,6 +5,56 @@
 Benchmarking the Text-to-SQL Capability of Large
 Language Models: A Comprehensive Evaluation
 
+@article{pvldb-GaoWLSQDZ24,
+  author       = {Dawei Gao and
+                  Haibin Wang and
+                  Yaliang Li and
+                  Xiuyu Sun and
+                  Yichen Qian and
+                  Bolin Ding and
+                  Jingren Zhou},
+  title        = {Text-to-SQL Empowered by Large Language Models: {A} Benchmark Evaluation},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {17},
+  number       = {5},
+  pages        = {1132--1145},
+  year         = {2024},
+  url          = {https://www.vldb.org/pvldb/vol17/p1132-gao.pdf},
+  timestamp    = {Tue, 26 Mar 2024 22:14:30 +0100},
+  biburl       = {https://dblp.org/rec/journals/pvldb/GaoWLSQDZ24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {
+    Method,
+    Evaluation,
+    Spider,
+    Spider-Realistic,
+    Multi-table,
+    BIRD,
+    Text-to-SQL,
+    Supervised Fine-tuning,
+    Schema Linking,
+    Transformer,
+    In-context Learning,
+    Hard Prompt,
+    GPT-4,
+    GPT-3.5,
+    TEXT-DAVINCI-003,
+    Vicuna-33B,
+    EM,
+    EX,
+    Falcon-40B,
+    LLaMa2-Chat-70B,
+    LLaMa2-Chat-13B,
+    LLaMa2-Chat-7B,
+    CodeLlama-34B
+    LLaMA-7B,
+    LLaMA-13B,
+    LLaMA-33B
+  }
+}
+@string{pvldb-GaoWLSQDZ24="Evaluate Prompt Engnieering, In-context learning and SFT"}
+
+
 @article{abs-2402-01117,
   author       = {Mohammadreza Pourreza and
                   Davood Rafiei},
@@ -28,7 +78,7 @@ Language Models: A Comprehensive Evaluation
     Text-to-SQL,
     Mistral-7B,
     DeepSeek-7B,
-    CodeLLaMa,
+    CodeLlama-34B,
     Supervised Fine-tuning,
     Schema Linking,
     Transformer,
@@ -36,9 +86,12 @@ Language Models: A Comprehensive Evaluation
     Recall,
     EM,
     EX,
+    LLaMa2-7B,
+    LLaMa2-13B,
+    LLaMa2-33B,
   }
 }
-@string{abs-2402-01117="Trust-SQL requires models to provide one of two outputs: 1) an SQL prediction or 2) abstention from making an SQL prediction, either due to potential errors in the generated SQL or when faced with unanswerable questions." }
+@string{abs-2402-01117="Two-stage SFT, 1) Schema Linking, 2) SQL Generation." }
 
 
 @article{ojha2024sft,
@@ -55,7 +108,7 @@ Language Models: A Comprehensive Evaluation
     Multi-table,
     Text-to-SQL,
     LLaMa2-7B,
-    CodeLLaMa,
+    CodeLlama,
     Supervised Fine-tuning,
     EM,
     EX,
@@ -368,7 +421,7 @@ Language Models: A Comprehensive Evaluation
         LLaMa2-Chat-70B,
         InternLM-70B,
         InternLM2-20B,
-        Codellama-34B,
+        CodeLlama-34B,
         SQLCoder-34B,
         VES,
         C-VES,

@@ -5,6 +5,71 @@
 Benchmarking the Text-to-SQL Capability of Large
 Language Models: A Comprehensive Evaluation
 
+@inproceedings{TanLSLWLWL24,
+  author       = {Zhao Tan and
+                  Xiping Liu and
+                  Qing Shu and
+                  Xi Li and
+                  Changxuan Wan and
+                  Dexi Liu and
+                  Qizhi Wan and
+                  Guoqiong Liao},
+  editor       = {Nicoletta Calzolari and
+                  Min{-}Yen Kan and
+                  V{\'{e}}ronique Hoste and
+                  Alessandro Lenci and
+                  Sakriani Sakti and
+                  Nianwen Xue},
+  title        = {Enhancing Text-to-SQL Capabilities of Large Language Models through
+                  Tailored Promptings},
+  booktitle    = {COLING},
+  pages        = {6091--6109},
+  publisher    = {{ELRA} and {ICCL}},
+  year         = {2024},
+  url          = {https://aclanthology.org/2024.lrec-main.539},
+  timestamp    = {Thu, 23 May 2024 16:47:05 +0200},
+  biburl       = {https://dblp.org/rec/conf/coling/TanLSLWLWL24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {
+    Method,
+    Spider,
+    Spider-Syn,
+    Spider-DK,
+    Spider-Realistic,
+    Multi-table,
+    Text-to-SQL,
+    Schema Linking,
+    Transformer,
+    Hard Prompt,
+    GPT-4,
+    GPT-3.5,
+    TS,
+    EX
+  }
+}
+@string{TanLSLWLWL24="three prompts: 1) Prompting for Schema Linking. 2) Prompting for SQL Generation. 3) Combining Promptings. Finally, result selection prompt based on self-consistency."}
+
+@article{yang2024sql,
+  title={SQL-to-Schema Enhances Schema Linking in Text-to-SQL},
+  author={Yang, Sun and Su, Qiong and Li, Zhishuai and Li, Ziyue and Mao, Hangyu and Liu, Chenxi and Zhao, Rui},
+  journal={arXiv preprint arXiv:2405.09593},
+  year={2024},
+  keywords     = {
+    Method,
+    Spider,
+    Multi-table,
+    Text-to-SQL,
+    Schema Linking,
+    Hard Prompt,
+    Transformer,
+    CodeLlama-34B,
+    Recall,
+    EX,
+  }
+}
+@string{yang2024sql="three stage: 1) generate an initial SQL query by utilizing the complete database schema. 2) extract tables and columns from the initial SQL query to create a concise schema. 3) generate the final sql."}
+
+
 @article{pvldb-GaoWLSQDZ24,
   author       = {Dawei Gao and
                   Haibin Wang and

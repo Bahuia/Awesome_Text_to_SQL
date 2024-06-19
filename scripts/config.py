@@ -172,6 +172,7 @@ fined_taxonomy = {
         "T5",
         "GPT-4",
         "GPT-3.5",
+        "Claude-2",
         "LLaMa2-Chat-70B",
         "LLaMa2-Chat-13B",
         "LLaMa2-Chat-7B",

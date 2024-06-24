@@ -2,7 +2,7 @@ from utils import generate_md_file
 import bibtexparser
 from config import *
 
-file_name = 'bibtex.bib'
+file_name = '../bibtex.bib'
 with open(file_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
 bib_db = bibtexparser.loads(bibtex_str,
@@ -87,7 +87,7 @@ def get_hyperlink(hyperlinks, mapping_name):
 
 def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles, mapping_name=None):
     generate_md_file(DB=bib_db, list_classif=list_type, key=keys, plot_title_fct=plot_titles,
-                     filename="README.md", add_comments=True, dir_path=dir_path[index], filter_key="keywords",
+                     filename="../README.md", add_comments=True, dir_path=dir_path[index], filter_key="keywords",
                      filter_content=[], mapping_name=mapping_name,
                      discrib=disc, add_hyperlink=True, hyperlinks=dir_path,
                      get_outline=get_outline, get_hyperlink=get_hyperlink)

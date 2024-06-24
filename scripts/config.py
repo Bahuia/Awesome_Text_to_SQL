@@ -124,7 +124,9 @@ fined_taxonomy = {
         "Spider-Realistic",
         "Dr.Spider",
         "Advising",
-        "EHRQSL"
+        "EHRQSL",
+        "SParC",
+        "CoSQL"
     ],
 
     "metric": [
@@ -134,6 +136,8 @@ fined_taxonomy = {
         "F1",
         "EM",
         "EX",
+        "QM",
+        "IM",
         "VES",
         "AUC",
         "TS",

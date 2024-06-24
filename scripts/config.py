@@ -197,6 +197,7 @@ fined_taxonomy = {
         "Vicuna-33B",
         "Mistral-7B",
         "DeepSeek-7B",
+        "DeepSeek-33B",
         "TEXT-DAVINCI-003",
         "Vicuna-33B"
     ],

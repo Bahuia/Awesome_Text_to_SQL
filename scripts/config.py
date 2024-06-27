@@ -199,7 +199,7 @@ fined_taxonomy = {
         "DeepSeek-7B",
         "DeepSeek-Coder-33B",
         "TEXT-DAVINCI-003",
-        "Vicuna-33B"
+        "Vicuna-33B",
     ],
 
 }

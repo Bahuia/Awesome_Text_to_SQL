@@ -175,7 +175,7 @@ fined_taxonomy = {
         "TAPAS",
         "GPT-1",
         "GPT-2",
-        "GPT-3",
+        "GPT-3.0",
         "T5",
         "GPT-4",
         "GPT-3.5",

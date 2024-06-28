@@ -126,7 +126,10 @@ fined_taxonomy = {
         "Advising",
         "EHRQSL",
         "SParC",
-        "CoSQL"
+        "CoSQL",
+        "TabFact",
+        "FeTaQA",
+        "WikiTQ"
     ],
 
     "metric": [

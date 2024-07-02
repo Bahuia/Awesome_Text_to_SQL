@@ -4,6 +4,148 @@
 
 Benchmarking the Text-to-SQL Capability of Large
 Language Models: A Comprehensive Evaluation
+@article{abs-2405-16755,
+  author       = {Shayan Talaei and
+                  Mohammadreza Pourreza and
+                  Yu{-}Chen Chang and
+                  Azalia Mirhoseini and
+                  Amin Saberi},
+  title        = {{CHESS:} Contextual Harnessing for Efficient {SQL} Synthesis},
+  journal      = {CoRR},
+  volume       = {abs/2405.16755},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2405.16755},
+  doi          = {10.48550/ARXIV.2405.16755},
+  eprinttype    = {arXiv},
+  eprint       = {2405.16755},
+  timestamp    = {Tue, 18 Jun 2024 16:10:22 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2405-16755.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {
+  Method,
+  BIRD,
+  Spider,
+  GPT-3.5,
+  GPT-4,
+  Llama-3-70B,
+  Text-to-SQL,
+  Few-shot Learning,
+  DeepSeek-33B,
+  EX,
+  EM,
+  VES,
+  Precision,
+  Recall
+  }
+}
+@string{abs-2405-16755="three steps: 1)The entity and context retrieval component uses keyword selection, localitysensitive hashing, and vector databases to efficiently retrieve relevant database values and contextual information from large databases.2)The schema selection phase narrows down the initial schema to a minimal yet sufficient subset of columns.3)The extracted schema is passed to a query generation module that utilizes a fine-tuned SQL generator model and a revision step to generate an accurate SQL query."}
+@article{abs-2404-10150,
+  author       = {Md Mahadi Hasan Nahid and
+                  Davood Rafiei},
+  title        = {TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table
+                  Decomposition},
+  journal      = {CoRR},
+  volume       = {abs/2404.10150},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2404.10150},
+  doi          = {10.48550/ARXIV.2404.10150},
+  eprinttype    = {arXiv},
+  eprint       = {2404.10150},
+  timestamp    = {Wed, 15 May 2024 13:30:28 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2404-10150.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {
+    Method,
+    WikiTQ,
+    FeTaQA,
+    WikiSQL,
+    TabFact,
+    Text-to-SQL,
+    GPT-3.5,
+    Few-shot Learning,
+    Accuracy
+  }
+}
+@string{abs-2404-10150="two steps: (1) generating SQL queries from natural language questions or statements and executing the SQL queries on the original tables to obtain sub-tables containing only essential information, and (2) using LLMs with the sub-table and the question or claim to generate the answer."}
+
+
+@article{abs-2405-15307,
+  author       = {Ge Qu and
+                  Jinyang Li and
+                  Bowen Li and
+                  Bowen Qin and
+                  Nan Huo and
+                  Chenhao Ma and
+                  Reynold Cheng},
+  title        = {Before Generation, Align it! {A} Novel and Effective Strategy for
+                  Mitigating Hallucinations in Text-to-SQL Generation},
+  journal      = {CoRR},
+  volume       = {abs/2405.15307},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2405.15307},
+  doi          = {10.48550/ARXIV.2405.15307},
+  eprinttype    = {arXiv},
+  eprint       = {2405.15307},
+  timestamp    = {Wed, 19 Jun 2024 08:52:55 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2405-15307.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {
+    Method,
+    BIRD,
+    Spider,
+    Spider-DK,
+    Spider-Realistic,
+    Text-to-SQL,
+    Schema Linking,
+    In-context Learning,
+    Few-shot Learning,
+    Supervised Fine-tuning,
+    GPT-3.5,
+    GPT-4.0,
+    Claude-2,
+    CodeLlama-34B,
+    DeepSeek-33B,
+    EX
+    }
+}
+@string{abs-2405-15307="two stages: 1)schema linking: first generating a dummy SQL query and then extracting related schema entities from it as the final output. 2)logical synthesis: based on the extracted entities, replace the traditional panda API functions with SQL keyword-like symbolic functions, then generate accurate SQL queries."}
+
+
+@article{abs-2405-02712,
+  author       = {Hanchong Zhang and
+                  Ruisheng Cao and
+                  Hongshen Xu and
+                  Lu Chen and
+                  Kai Yu},
+  title        = {CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions},
+  journal      = {CoRR},
+  volume       = {abs/2405.02712},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2405.02712},
+  doi          = {10.48550/ARXIV.2405.02712},
+  eprinttype    = {arXiv},
+  eprint       = {2405.02712},
+  timestamp    = {Fri, 07 Jun 2024 15:57:24 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2405-02712.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {
+     Method,
+     SParC,
+     CoSQL,
+     Text-to-SQL,
+     Transformer,
+     In-context Learning,
+     Few-shot Learning,
+     GPT-3.5,
+     EM,
+     TS,
+     EX,
+     QM,
+     IM
+  }
+}
+@string{abs-2405-02712="If a question has a high structural similarity to the previous questions, the current SQL query can be generated by updating the previous ones through a few editions."}
+
 
 @article{abs-2402-11517,
   author       = {Zijin Hong and

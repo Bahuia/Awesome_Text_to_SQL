@@ -126,7 +126,10 @@ fined_taxonomy = {
         "Advising",
         "EHRQSL",
         "SParC",
-        "CoSQL"
+        "CoSQL",
+        "TabFact",
+        "FeTaQA",
+        "WikiTQ"
     ],
 
     "metric": [
@@ -172,7 +175,7 @@ fined_taxonomy = {
         "TAPAS",
         "GPT-1",
         "GPT-2",
-        "GPT-3",
+        "GPT-3.0",
         "T5",
         "GPT-4",
         "GPT-3.5",
@@ -180,6 +183,7 @@ fined_taxonomy = {
         "LLaMa2-Chat-70B",
         "LLaMa2-Chat-13B",
         "LLaMa2-Chat-7B",
+        "Llama-3-70B",
         "InternLM-70B",
         "InternLM2-20B",
         "CodeLlama",
@@ -197,6 +201,7 @@ fined_taxonomy = {
         "Vicuna-33B",
         "Mistral-7B",
         "DeepSeek-7B",
+        "DeepSeek-33B",
         "TEXT-DAVINCI-003",
         "Vicuna-33B"
     ],

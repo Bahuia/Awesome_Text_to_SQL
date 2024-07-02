@@ -183,6 +183,7 @@ fined_taxonomy = {
         "LLaMa2-Chat-70B",
         "LLaMa2-Chat-13B",
         "LLaMa2-Chat-7B",
+        "Llama-3-70B",
         "InternLM-70B",
         "InternLM2-20B",
         "CodeLlama",
